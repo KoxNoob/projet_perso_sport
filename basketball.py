@@ -228,7 +228,7 @@ if vue == 'Classement':
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
       st.write(df_final)
     # Test Mapping
-    st.markdown("<h3 style='text-align: center; color: grey; size = 0'>Localisation des Team</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: blue; size = 0'>Localisation des Team</h3>", unsafe_allow_html=True)
     states = alt.topo_feature(data.us_10m.url, feature='states')
 
     # US states background
@@ -270,7 +270,7 @@ if vue == 'Classement':
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
       st.write(df_west)
     # Test Mapping
-    st.markdown("<h3 style='text-align: center; color: grey; size = 0'>Localisation des Team de la Conférence Ouest</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: blue; size = 0'>Localisation des Team de la Conférence Ouest</h3>", unsafe_allow_html=True)
     states = alt.topo_feature(data.us_10m.url, feature='states')
 
     # US states background
