@@ -12,3 +12,7 @@ acquises.
 Je vais essayer d'améliorer petit à petit cette mini-app. 
 
 Si vous avez des suggestions, des remarques, n'hésitez pas.
+
+## Version
+
+Version actuelle : 0.1.2
