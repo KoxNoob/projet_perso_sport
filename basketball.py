@@ -53,40 +53,40 @@ def moy_pts_dom_p(df,team):
   mask1 = df['home_team'] == team
   mask2 = df['home_team_score']
   mask = mask1&mask2
-  return round(df[mask]['home_team_score'].mean(),1)
+  return round(df[mask]['home_team_score'].mean())
 
 # Moyenne de points pour à l'extérieur
 def moy_pts_ext_p(df,team):
   mask1 = df['away_team'] == team
   mask2 = df['away_team_score']
   mask = mask1&mask2
-  return round(df[mask]['away_team_score'].mean(),1)
+  return round(df[mask]['away_team_score'].mean())
 
 # Moyenne de points pour
 def moy_pts_p(df,team):
-  return round((moy_pts_dom_p(df,team) + moy_pts_ext_p(df,team)) / 2, 1)
+  return round((moy_pts_dom_p(df,team) + moy_pts_ext_p(df,team)) / 2)
 
 # Moyenne de points contre à domicile
 def moy_pts_dom_c(df,team):
   mask1 = df['home_team'] == team
   mask2 = df['home_team_score']
   mask = mask1&mask2
-  return round(df[mask]['away_team_score'].mean(),1)
+  return round(df[mask]['away_team_score'].mean())
 
 # Moyenne de points contre à l'extérieur
 def moy_pts_ext_c(df,team):
   mask1 = df['away_team'] == team
   mask2 = df['away_team_score']
   mask = mask1&mask2
-  return round(df[mask]['home_team_score'].mean(),1)
+  return round(df[mask]['home_team_score'].mean())
 
 # Moyenne de points contre
 def moy_pts_c(df,team):
-  return round((moy_pts_dom_c(df,team) + moy_pts_ext_c(df,team)) / 2, 1)
+  return round((moy_pts_dom_c(df,team) + moy_pts_ext_c(df,team)) / 2)
 
 # Poucentage de victoires
 def pourcent(df,team):
-  return round(nb_victory(df,team)/(nb_victory(df,team) + nb_defeat(df,team))*100,1)
+  return round(nb_victory(df,team)/(nb_victory(df,team) + nb_defeat(df,team))*100)
 
 # Conference Est ou Ouest ?
 def conf(df,team):
@@ -123,6 +123,7 @@ df_final = df_final.reset_index(drop=True)
 df_final.index = df_final.index + 1
 link = 'https://raw.githubusercontent.com/KoxNoob/projet_perso_sport/master/gps.csv'
 df_gps = pd.read_csv(link)
+df_gps = df_gps.rename(columns={'Longitude': 'longitude', 'Latitude' : 'latitude'})
 
 ###### Préparation des df secondaires pour les classements ######
 
@@ -227,8 +228,9 @@ if vue == 'Classement':
       st.write(df_stat_13)
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
       st.write(df_final)
-    # Test Mapping
-    st.markdown("<h3 style='text-align: center; color: blue; size = 0'>Localisation des Team</h3>", unsafe_allow_html=True)
+    
+    # Mapping
+    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/NBA-logo.jpg?raw=true"></p>',unsafe_allow_html=True) 
     states = alt.topo_feature(data.us_10m.url, feature='states')
 
     # US states background
@@ -241,14 +243,23 @@ if vue == 'Classement':
     ).project('albersUsa')
 
     # airport positions on background
-    points = alt.Chart(df_gps).mark_circle(size=100).encode(
-        longitude='Longitude',
-        latitude='Latitude',
+    points_w = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
+        longitude='longitude',
+        latitude='latitude',
+        color=alt.value('red'),
+        tooltip=['Team']
+        
+    )
+
+    points_e = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
+        longitude='longitude',
+        latitude='latitude',
         color=alt.value('blue'),
         tooltip=['Team']
         
     )
-    background + points
+    background + points_w + points_e
+    
 # Classement Conférence Ouest
   if option == 'Conférence Ouest':
     if stats == ['Générales']:
@@ -269,10 +280,11 @@ if vue == 'Classement':
       st.write(df_stat_14)
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
       st.write(df_west)
-    # Test Mapping
-    st.markdown("<h3 style='text-align: center; color: blue; size = 0'>Localisation des Team de la Conférence Ouest</h3>", unsafe_allow_html=True)
+    
+    # Mapping
+    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Ouest_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True) 
+    
     states = alt.topo_feature(data.us_10m.url, feature='states')
-
     # US states background
     background = alt.Chart(states).mark_geoshape(
         fill='lightgray',
@@ -284,9 +296,9 @@ if vue == 'Classement':
 
     # airport positions on background
     points = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
-        longitude='Longitude',
-        latitude='Latitude',
-        color=alt.value('blue'),
+        longitude='longitude',
+        latitude='latitude',
+        color=alt.value('red'),
         tooltip=['Team']
         
     )
@@ -294,25 +306,26 @@ if vue == 'Classement':
 # Classement Conférence Est
   if option == 'Conférence Est':
     if stats == ['Générales']:
-      st.write(df_stat_6)
+      st.dataframe(df_stat_6)
     if stats == ['Victoires/Défaites domicile/extérieur']:
-      st.write(df_stat_3)
+      st.dataframe(df_stat_3)
     if stats == ['Moyennes de points Pour/Contre détaillées']:
-      st.write(df_stat_9)
+      st.dataframe(df_stat_9)
     if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-      st.write(df_east.iloc[:,:11])
+      st.dataframe(df_east.iloc[:,:11])
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
       df_stat_12 = pd.merge(left = df_stat_6, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
       df_stat_12.index = df_stat_12.index + 1
-      st.write(df_stat_12)
+      st.dataframe(df_stat_12)
     if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
       df_stat_15 = pd.merge(left = df_stat_3, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
       df_stat_15.index = df_stat_15.index + 1
-      st.write(df_stat_15)
+      st.dataframe(df_stat_15)
     if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      st.write(df_east)
-    # Test Mapping
-    st.markdown("<h3 style='text-align: center; color: blue; size = 0'>Localisation des Team de la Conférence Est</h3>", unsafe_allow_html=True)
+      st.dataframe(df_east)
+    
+    # Mapping
+    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Est_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
     states = alt.topo_feature(data.us_10m.url, feature='states')
 
     # US states background
@@ -326,9 +339,11 @@ if vue == 'Classement':
 
     # airport positions on background
     points = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
-        longitude='Longitude',
-        latitude='Latitude',
+        longitude='longitude',
+        latitude='latitude',
         color=alt.value('blue'),
         tooltip=['Team']
     )
     background + points
+
+    
