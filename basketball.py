@@ -218,11 +218,11 @@ if vue == 'Accueil':
 if vue == 'Classement':
 
     # Possibilité de choisir quel classement voir
-    option = st.selectbox('Quel classement voulez-vous ?',
+  option = st.selectbox('Quel classement voulez-vous ?',
                 ('Général', 'Conférence Ouest', 'Conférence Est'))
 
 # Possibilité de choisir les statistiques à afficher
-    stats = st.multiselect('Quelles statistiques voulez-vous voir ?',
+  stats = st.multiselect('Quelles statistiques voulez-vous voir ?',
                 ('Générales', 'Victoires/Défaites domicile/extérieur','Moyennes de points Pour/Contre détaillées' ))
   
 #Classement Général
