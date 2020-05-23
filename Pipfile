@@ -10,6 +10,7 @@ streamlit = "*"
 pandas = "*"
 altair = "*"
 vega-datasets = "*"
+plotly = "*"
 
 [requires]
 python_version = "3.7"
