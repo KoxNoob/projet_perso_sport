@@ -1,0 +1,972 @@
+,away_team,away_team_score,home_team,home_team_score,start_time
+0,New Orleans Pelicans,122,Toronto Raptors,130,2019-10-23 00:00:00+00:00
+1,Los Angeles Lakers,102,Los Angeles Clippers,112,2019-10-23 02:30:00+00:00
+2,Chicago Bulls,125,Charlotte Hornets,126,2019-10-23 23:00:00+00:00
+3,Detroit Pistons,119,Indiana Pacers,110,2019-10-23 23:00:00+00:00
+4,Cleveland Cavaliers,85,Orlando Magic,94,2019-10-23 23:00:00+00:00
+5,Minnesota Timberwolves,127,Brooklyn Nets,126,2019-10-23 23:30:00+00:00
+6,Memphis Grizzlies,101,Miami Heat,120,2019-10-23 23:30:00+00:00
+7,Boston Celtics,93,Philadelphia 76Ers,107,2019-10-23 23:30:00+00:00
+8,Washington Wizards,100,Dallas Mavericks,108,2019-10-24 00:30:00+00:00
+9,New York Knicks,111,San Antonio Spurs,120,2019-10-24 00:30:00+00:00
+10,Oklahoma City Thunder,95,Utah Jazz,100,2019-10-24 01:00:00+00:00
+11,Sacramento Kings,95,Phoenix Suns,124,2019-10-24 02:00:00+00:00
+12,Denver Nuggets,108,Portland Trail Blazers,100,2019-10-24 02:00:00+00:00
+13,Atlanta Hawks,117,Detroit Pistons,100,2019-10-24 23:00:00+00:00
+14,Milwaukee Bucks,117,Houston Rockets,111,2019-10-25 00:00:00+00:00
+15,Los Angeles Clippers,141,Golden State Warriors,122,2019-10-25 02:30:00+00:00
+16,Toronto Raptors,106,Boston Celtics,112,2019-10-25 23:00:00+00:00
+17,Minnesota Timberwolves,121,Charlotte Hornets,99,2019-10-25 23:00:00+00:00
+18,New York Knicks,109,Brooklyn Nets,113,2019-10-25 23:30:00+00:00
+19,Chicago Bulls,110,Memphis Grizzlies,102,2019-10-26 00:00:00+00:00
+20,Dallas Mavericks,123,New Orleans Pelicans,116,2019-10-26 00:00:00+00:00
+21,Washington Wizards,97,Oklahoma City Thunder,85,2019-10-26 00:00:00+00:00
+22,Phoenix Suns,107,Denver Nuggets,108,2019-10-26 01:00:00+00:00
+23,Portland Trail Blazers,122,Sacramento Kings,112,2019-10-26 02:00:00+00:00
+24,Utah Jazz,86,Los Angeles Lakers,95,2019-10-26 02:30:00+00:00
+25,Miami Heat,131,Milwaukee Bucks,126,2019-10-26 21:00:00+00:00
+26,Philadelphia 76Ers,117,Detroit Pistons,111,2019-10-26 23:00:00+00:00
+27,Orlando Magic,99,Atlanta Hawks,103,2019-10-26 23:30:00+00:00
+28,Boston Celtics,118,New York Knicks,95,2019-10-26 23:30:00+00:00
+29,Toronto Raptors,108,Chicago Bulls,84,2019-10-27 00:00:00+00:00
+30,Indiana Pacers,99,Cleveland Cavaliers,110,2019-10-27 00:00:00+00:00
+31,New Orleans Pelicans,123,Houston Rockets,126,2019-10-27 00:00:00+00:00
+32,Washington Wizards,122,San Antonio Spurs,124,2019-10-27 00:30:00+00:00
+33,Sacramento Kings,81,Utah Jazz,113,2019-10-27 01:00:00+00:00
+34,Los Angeles Clippers,122,Phoenix Suns,130,2019-10-27 02:00:00+00:00
+35,Golden State Warriors,92,Oklahoma City Thunder,120,2019-10-27 19:30:00+00:00
+36,Brooklyn Nets,133,Memphis Grizzlies,134,2019-10-27 22:00:00+00:00
+37,Portland Trail Blazers,121,Dallas Mavericks,119,2019-10-27 23:00:00+00:00
+38,Miami Heat,109,Minnesota Timberwolves,116,2019-10-27 23:00:00+00:00
+39,Charlotte Hornets,101,Los Angeles Lakers,120,2019-10-28 01:30:00+00:00
+40,Chicago Bulls,98,New York Knicks,105,2019-10-28 23:00:00+00:00
+41,Indiana Pacers,94,Detroit Pistons,96,2019-10-28 23:00:00+00:00
+42,Orlando Magic,95,Toronto Raptors,104,2019-10-28 23:30:00+00:00
+43,Philadelphia 76Ers,105,Atlanta Hawks,103,2019-10-28 23:30:00+00:00
+44,Oklahoma City Thunder,112,Houston Rockets,116,2019-10-29 00:00:00+00:00
+45,Cleveland Cavaliers,112,Milwaukee Bucks,129,2019-10-29 00:00:00+00:00
+46,Golden State Warriors,134,New Orleans Pelicans,123,2019-10-29 00:00:00+00:00
+47,Portland Trail Blazers,110,San Antonio Spurs,113,2019-10-29 00:30:00+00:00
+48,Utah Jazz,96,Phoenix Suns,95,2019-10-29 02:00:00+00:00
+49,Denver Nuggets,101,Sacramento Kings,94,2019-10-29 02:00:00+00:00
+50,Charlotte Hornets,96,Los Angeles Clippers,111,2019-10-29 02:30:00+00:00
+51,Atlanta Hawks,97,Miami Heat,112,2019-10-29 23:30:00+00:00
+52,Dallas Mavericks,109,Denver Nuggets,106,2019-10-30 01:00:00+00:00
+53,Memphis Grizzlies,91,Los Angeles Lakers,120,2019-10-30 02:30:00+00:00
+54,Chicago Bulls,111,Cleveland Cavaliers,117,2019-10-30 23:00:00+00:00
+55,New York Knicks,83,Orlando Magic,95,2019-10-30 23:00:00+00:00
+56,Minnesota Timberwolves,95,Philadelphia 76Ers,117,2019-10-30 23:00:00+00:00
+57,Milwaukee Bucks,105,Boston Celtics,116,2019-10-30 23:30:00+00:00
+58,Indiana Pacers,118,Brooklyn Nets,108,2019-10-30 23:30:00+00:00
+59,Detroit Pistons,113,Toronto Raptors,125,2019-10-30 23:30:00+00:00
+60,Portland Trail Blazers,102,Oklahoma City Thunder,99,2019-10-31 00:00:00+00:00
+61,Houston Rockets,159,Washington Wizards,158,2019-10-31 00:00:00+00:00
+62,Charlotte Hornets,118,Sacramento Kings,111,2019-10-31 02:00:00+00:00
+63,Los Angeles Clippers,96,Utah Jazz,110,2019-10-31 02:00:00+00:00
+64,Phoenix Suns,121,Golden State Warriors,110,2019-10-31 02:30:00+00:00
+65,Miami Heat,106,Atlanta Hawks,97,2019-10-31 23:00:00+00:00
+66,Denver Nuggets,107,New Orleans Pelicans,122,2019-11-01 01:30:00+00:00
+67,San Antonio Spurs,97,Los Angeles Clippers,103,2019-11-01 02:30:00+00:00
+68,Houston Rockets,116,Brooklyn Nets,123,2019-11-01 23:00:00+00:00
+69,Cleveland Cavaliers,95,Indiana Pacers,102,2019-11-01 23:00:00+00:00
+70,Milwaukee Bucks,123,Orlando Magic,91,2019-11-01 23:00:00+00:00
+71,New York Knicks,102,Boston Celtics,104,2019-11-01 23:30:00+00:00
+72,Detroit Pistons,106,Chicago Bulls,112,2019-11-02 00:00:00+00:00
+73,Los Angeles Lakers,119,Dallas Mavericks,110,2019-11-02 01:30:00+00:00
+74,Utah Jazz,101,Sacramento Kings,102,2019-11-02 02:00:00+00:00
+75,San Antonio Spurs,127,Golden State Warriors,110,2019-11-02 02:30:00+00:00
+76,New Orleans Pelicans,104,Oklahoma City Thunder,115,2019-11-02 21:00:00+00:00
+77,Brooklyn Nets,109,Detroit Pistons,113,2019-11-02 23:00:00+00:00
+78,Denver Nuggets,91,Orlando Magic,87,2019-11-02 23:00:00+00:00
+79,Phoenix Suns,114,Memphis Grizzlies,105,2019-11-03 00:00:00+00:00
+80,Toronto Raptors,105,Milwaukee Bucks,115,2019-11-03 00:00:00+00:00
+81,Minnesota Timberwolves,131,Washington Wizards,109,2019-11-03 00:00:00+00:00
+82,Charlotte Hornets,93,Golden State Warriors,87,2019-11-03 00:30:00+00:00
+83,Philadelphia 76Ers,129,Portland Trail Blazers,128,2019-11-03 02:00:00+00:00
+84,Chicago Bulls,95,Indiana Pacers,108,2019-11-03 22:00:00+00:00
+85,Houston Rockets,100,Miami Heat,129,2019-11-03 23:00:00+00:00
+86,Sacramento Kings,113,New York Knicks,92,2019-11-03 23:00:00+00:00
+87,Los Angeles Lakers,103,San Antonio Spurs,96,2019-11-04 00:00:00+00:00
+88,Dallas Mavericks,131,Cleveland Cavaliers,111,2019-11-04 00:30:00+00:00
+89,Utah Jazz,94,Los Angeles Clippers,105,2019-11-04 02:00:00+00:00
+90,Detroit Pistons,99,Washington Wizards,115,2019-11-05 00:00:00+00:00
+91,New Orleans Pelicans,125,Brooklyn Nets,135,2019-11-05 00:30:00+00:00
+92,Houston Rockets,107,Memphis Grizzlies,100,2019-11-05 01:00:00+00:00
+93,Milwaukee Bucks,134,Minnesota Timberwolves,106,2019-11-05 01:00:00+00:00
+94,Philadelphia 76Ers,109,Phoenix Suns,114,2019-11-05 02:00:00+00:00
+95,Portland Trail Blazers,118,Golden State Warriors,127,2019-11-05 03:30:00+00:00
+96,Indiana Pacers,120,Charlotte Hornets,122,2019-11-06 00:00:00+00:00
+97,Boston Celtics,119,Cleveland Cavaliers,113,2019-11-06 00:00:00+00:00
+98,San Antonio Spurs,100,Atlanta Hawks,108,2019-11-06 00:30:00+00:00
+99,Los Angeles Lakers,118,Chicago Bulls,112,2019-11-06 01:00:00+00:00
+100,Orlando Magic,94,Oklahoma City Thunder,102,2019-11-06 01:00:00+00:00
+101,Miami Heat,89,Denver Nuggets,109,2019-11-06 02:00:00+00:00
+102,New York Knicks,102,Detroit Pistons,122,2019-11-07 00:00:00+00:00
+103,Washington Wizards,106,Indiana Pacers,121,2019-11-07 00:00:00+00:00
+104,Chicago Bulls,113,Atlanta Hawks,93,2019-11-07 00:30:00+00:00
+105,Golden State Warriors,112,Houston Rockets,129,2019-11-07 00:30:00+00:00
+106,Sacramento Kings,120,Toronto Raptors,124,2019-11-07 00:30:00+00:00
+107,Minnesota Timberwolves,121,Memphis Grizzlies,137,2019-11-07 01:00:00+00:00
+108,Orlando Magic,106,Dallas Mavericks,107,2019-11-07 01:30:00+00:00
+109,Philadelphia 76Ers,104,Utah Jazz,106,2019-11-07 02:00:00+00:00
+110,Milwaukee Bucks,129,Los Angeles Clippers,124,2019-11-07 03:00:00+00:00
+111,Boston Celtics,108,Charlotte Hornets,87,2019-11-08 01:00:00+00:00
+112,Oklahoma City Thunder,112,San Antonio Spurs,121,2019-11-08 01:30:00+00:00
+113,Miami Heat,124,Phoenix Suns,108,2019-11-08 02:00:00+00:00
+114,Portland Trail Blazers,101,Los Angeles Clippers,107,2019-11-08 03:30:00+00:00
+115,Detroit Pistons,106,Indiana Pacers,112,2019-11-09 00:00:00+00:00
+116,Memphis Grizzlies,86,Orlando Magic,118,2019-11-09 00:00:00+00:00
+117,Cleveland Cavaliers,113,Washington Wizards,100,2019-11-09 00:00:00+00:00
+118,Sacramento Kings,121,Atlanta Hawks,109,2019-11-09 00:30:00+00:00
+119,Golden State Warriors,119,Minnesota Timberwolves,125,2019-11-09 01:00:00+00:00
+120,Toronto Raptors,122,New Orleans Pelicans,104,2019-11-09 01:00:00+00:00
+121,New York Knicks,106,Dallas Mavericks,102,2019-11-09 01:30:00+00:00
+122,Philadelphia 76Ers,97,Denver Nuggets,100,2019-11-09 02:00:00+00:00
+123,Milwaukee Bucks,100,Utah Jazz,103,2019-11-09 02:00:00+00:00
+124,Brooklyn Nets,119,Portland Trail Blazers,115,2019-11-09 03:00:00+00:00
+125,Miami Heat,80,Los Angeles Lakers,95,2019-11-09 03:30:00+00:00
+126,Boston Celtics,135,San Antonio Spurs,115,2019-11-09 22:00:00+00:00
+127,New Orleans Pelicans,115,Charlotte Hornets,110,2019-11-10 00:00:00+00:00
+128,Houston Rockets,117,Chicago Bulls,94,2019-11-10 01:00:00+00:00
+129,Dallas Mavericks,138,Memphis Grizzlies,122,2019-11-10 01:00:00+00:00
+130,Golden State Warriors,108,Oklahoma City Thunder,114,2019-11-10 01:00:00+00:00
+131,Denver Nuggets,100,Minnesota Timberwolves,98,2019-11-10 20:30:00+00:00
+132,Indiana Pacers,109,Orlando Magic,102,2019-11-10 23:00:00+00:00
+133,Charlotte Hornets,106,Philadelphia 76Ers,114,2019-11-10 23:00:00+00:00
+134,Milwaukee Bucks,121,Oklahoma City Thunder,119,2019-11-11 00:00:00+00:00
+135,Cleveland Cavaliers,108,New York Knicks,87,2019-11-11 00:30:00+00:00
+136,Brooklyn Nets,112,Phoenix Suns,138,2019-11-11 01:00:00+00:00
+137,Atlanta Hawks,113,Portland Trail Blazers,124,2019-11-11 02:00:00+00:00
+138,Toronto Raptors,113,Los Angeles Lakers,104,2019-11-11 02:30:00+00:00
+139,Minnesota Timberwolves,120,Detroit Pistons,114,2019-11-12 00:00:00+00:00
+140,Dallas Mavericks,106,Boston Celtics,116,2019-11-12 00:30:00+00:00
+141,Memphis Grizzlies,113,San Antonio Spurs,109,2019-11-12 00:30:00+00:00
+142,Houston Rockets,122,New Orleans Pelicans,116,2019-11-12 01:00:00+00:00
+143,Utah Jazz,122,Golden State Warriors,108,2019-11-12 03:30:00+00:00
+144,Toronto Raptors,88,Los Angeles Clippers,98,2019-11-12 03:30:00+00:00
+145,Oklahoma City Thunder,85,Indiana Pacers,111,2019-11-13 00:00:00+00:00
+146,Cleveland Cavaliers,97,Philadelphia 76Ers,98,2019-11-13 00:00:00+00:00
+147,Detroit Pistons,108,Miami Heat,117,2019-11-13 00:30:00+00:00
+148,New York Knicks,102,Chicago Bulls,120,2019-11-13 01:00:00+00:00
+149,Atlanta Hawks,125,Denver Nuggets,121,2019-11-13 02:00:00+00:00
+150,Los Angeles Lakers,123,Phoenix Suns,115,2019-11-13 02:00:00+00:00
+151,Brooklyn Nets,114,Utah Jazz,119,2019-11-13 02:00:00+00:00
+152,Portland Trail Blazers,99,Sacramento Kings,107,2019-11-13 03:00:00+00:00
+153,Memphis Grizzlies,119,Charlotte Hornets,117,2019-11-14 00:00:00+00:00
+154,Philadelphia 76Ers,97,Orlando Magic,112,2019-11-14 00:00:00+00:00
+155,Washington Wizards,133,Boston Celtics,140,2019-11-14 00:30:00+00:00
+156,Los Angeles Clippers,93,Houston Rockets,102,2019-11-14 00:30:00+00:00
+157,San Antonio Spurs,114,Minnesota Timberwolves,129,2019-11-14 01:00:00+00:00
+158,Golden State Warriors,94,Los Angeles Lakers,120,2019-11-14 03:00:00+00:00
+159,Toronto Raptors,114,Portland Trail Blazers,106,2019-11-14 03:00:00+00:00
+160,Miami Heat,108,Cleveland Cavaliers,97,2019-11-14 23:00:00+00:00
+161,Chicago Bulls,115,Milwaukee Bucks,124,2019-11-15 01:00:00+00:00
+162,Los Angeles Clippers,127,New Orleans Pelicans,132,2019-11-15 01:00:00+00:00
+163,Dallas Mavericks,103,New York Knicks,106,2019-11-15 01:00:00+00:00
+164,Atlanta Hawks,112,Phoenix Suns,128,2019-11-15 02:00:00+00:00
+165,Brooklyn Nets,93,Denver Nuggets,101,2019-11-15 03:30:00+00:00
+166,Detroit Pistons,106,Charlotte Hornets,109,2019-11-16 00:00:00+00:00
+167,San Antonio Spurs,109,Orlando Magic,111,2019-11-16 00:00:00+00:00
+168,Indiana Pacers,102,Houston Rockets,111,2019-11-16 01:00:00+00:00
+169,Utah Jazz,106,Memphis Grizzlies,107,2019-11-16 01:00:00+00:00
+170,Washington Wizards,137,Minnesota Timberwolves,116,2019-11-16 01:00:00+00:00
+171,Philadelphia 76Ers,119,Oklahoma City Thunder,127,2019-11-16 01:00:00+00:00
+172,Boston Celtics,105,Golden State Warriors,100,2019-11-16 03:30:00+00:00
+173,Sacramento Kings,97,Los Angeles Lakers,99,2019-11-16 03:30:00+00:00
+174,Brooklyn Nets,117,Chicago Bulls,111,2019-11-16 23:00:00+00:00
+175,Milwaukee Bucks,102,Indiana Pacers,83,2019-11-17 00:00:00+00:00
+176,Charlotte Hornets,103,New York Knicks,102,2019-11-17 00:30:00+00:00
+177,New Orleans Pelicans,94,Miami Heat,109,2019-11-17 01:00:00+00:00
+178,Houston Rockets,125,Minnesota Timberwolves,105,2019-11-17 01:00:00+00:00
+179,Toronto Raptors,102,Dallas Mavericks,110,2019-11-17 01:30:00+00:00
+180,Portland Trail Blazers,121,San Antonio Spurs,116,2019-11-17 01:30:00+00:00
+181,Atlanta Hawks,101,Los Angeles Clippers,150,2019-11-17 03:30:00+00:00
+182,Philadelphia 76Ers,114,Cleveland Cavaliers,95,2019-11-17 20:00:00+00:00
+183,Boston Celtics,99,Sacramento Kings,100,2019-11-17 20:30:00+00:00
+184,Denver Nuggets,131,Memphis Grizzlies,114,2019-11-17 23:00:00+00:00
+185,Washington Wizards,121,Orlando Magic,125,2019-11-17 23:00:00+00:00
+186,Golden State Warriors,100,New Orleans Pelicans,108,2019-11-18 00:00:00+00:00
+187,Atlanta Hawks,101,Los Angeles Lakers,122,2019-11-18 02:30:00+00:00
+188,Cleveland Cavaliers,105,New York Knicks,123,2019-11-19 00:00:00+00:00
+189,Indiana Pacers,115,Brooklyn Nets,86,2019-11-19 00:30:00+00:00
+190,Charlotte Hornets,96,Toronto Raptors,132,2019-11-19 00:30:00+00:00
+191,Milwaukee Bucks,115,Chicago Bulls,101,2019-11-19 01:00:00+00:00
+192,Portland Trail Blazers,108,Houston Rockets,132,2019-11-19 01:00:00+00:00
+193,San Antonio Spurs,110,Dallas Mavericks,117,2019-11-19 01:30:00+00:00
+194,Boston Celtics,99,Phoenix Suns,85,2019-11-19 02:00:00+00:00
+195,Minnesota Timberwolves,112,Utah Jazz,102,2019-11-19 02:00:00+00:00
+196,Oklahoma City Thunder,88,Los Angeles Clippers,90,2019-11-19 03:30:00+00:00
+197,Golden State Warriors,114,Memphis Grizzlies,95,2019-11-20 01:00:00+00:00
+198,Portland Trail Blazers,104,New Orleans Pelicans,115,2019-11-20 01:00:00+00:00
+199,Phoenix Suns,116,Sacramento Kings,120,2019-11-20 03:00:00+00:00
+200,Oklahoma City Thunder,107,Los Angeles Lakers,112,2019-11-20 03:30:00+00:00
+201,New York Knicks,104,Philadelphia 76Ers,109,2019-11-21 00:00:00+00:00
+202,San Antonio Spurs,132,Washington Wizards,138,2019-11-21 00:00:00+00:00
+203,Milwaukee Bucks,135,Atlanta Hawks,127,2019-11-21 00:30:00+00:00
+204,Charlotte Hornets,91,Brooklyn Nets,101,2019-11-21 00:30:00+00:00
+205,Golden State Warriors,94,Dallas Mavericks,142,2019-11-21 00:30:00+00:00
+206,Cleveland Cavaliers,100,Miami Heat,124,2019-11-21 00:30:00+00:00
+207,Orlando Magic,97,Toronto Raptors,113,2019-11-21 00:30:00+00:00
+208,Detroit Pistons,89,Chicago Bulls,109,2019-11-21 01:00:00+00:00
+209,Utah Jazz,103,Minnesota Timberwolves,95,2019-11-21 01:00:00+00:00
+210,Houston Rockets,95,Denver Nuggets,105,2019-11-21 02:00:00+00:00
+211,Boston Celtics,104,Los Angeles Clippers,107,2019-11-21 03:00:00+00:00
+212,Portland Trail Blazers,129,Milwaukee Bucks,137,2019-11-22 01:00:00+00:00
+213,New Orleans Pelicans,124,Phoenix Suns,121,2019-11-22 03:30:00+00:00
+214,Atlanta Hawks,103,Detroit Pistons,128,2019-11-23 00:00:00+00:00
+215,Charlotte Hornets,118,Washington Wizards,125,2019-11-23 00:00:00+00:00
+216,Sacramento Kings,97,Brooklyn Nets,116,2019-11-23 00:30:00+00:00
+217,Miami Heat,116,Chicago Bulls,108,2019-11-23 01:00:00+00:00
+218,Los Angeles Lakers,130,Oklahoma City Thunder,127,2019-11-23 01:00:00+00:00
+219,San Antonio Spurs,104,Philadelphia 76Ers,115,2019-11-23 01:00:00+00:00
+220,Cleveland Cavaliers,101,Dallas Mavericks,143,2019-11-23 01:30:00+00:00
+221,Boston Celtics,92,Denver Nuggets,96,2019-11-23 02:00:00+00:00
+222,Golden State Warriors,109,Utah Jazz,113,2019-11-23 02:00:00+00:00
+223,Houston Rockets,119,Los Angeles Clippers,122,2019-11-23 03:30:00+00:00
+224,Phoenix Suns,100,Minnesota Timberwolves,98,2019-11-23 22:00:00+00:00
+225,Chicago Bulls,116,Charlotte Hornets,115,2019-11-24 00:00:00+00:00
+226,Orlando Magic,106,Indiana Pacers,111,2019-11-24 00:00:00+00:00
+227,Toronto Raptors,119,Atlanta Hawks,116,2019-11-24 00:30:00+00:00
+228,San Antonio Spurs,111,New York Knicks,104,2019-11-24 00:30:00+00:00
+229,Miami Heat,86,Philadelphia 76Ers,113,2019-11-24 00:30:00+00:00
+230,Portland Trail Blazers,104,Cleveland Cavaliers,110,2019-11-24 01:00:00+00:00
+231,Los Angeles Lakers,109,Memphis Grizzlies,108,2019-11-24 01:00:00+00:00
+232,Detroit Pistons,90,Milwaukee Bucks,104,2019-11-24 01:30:00+00:00
+233,New Orleans Pelicans,120,Utah Jazz,128,2019-11-24 02:00:00+00:00
+234,Dallas Mavericks,137,Houston Rockets,123,2019-11-24 20:30:00+00:00
+235,Brooklyn Nets,103,New York Knicks,101,2019-11-24 23:00:00+00:00
+236,Sacramento Kings,113,Washington Wizards,106,2019-11-24 23:00:00+00:00
+237,Phoenix Suns,104,Denver Nuggets,116,2019-11-25 01:00:00+00:00
+238,New Orleans Pelicans,109,Los Angeles Clippers,134,2019-11-25 02:00:00+00:00
+239,Brooklyn Nets,108,Cleveland Cavaliers,106,2019-11-26 00:00:00+00:00
+240,Orlando Magic,88,Detroit Pistons,103,2019-11-26 00:00:00+00:00
+241,Memphis Grizzlies,114,Indiana Pacers,126,2019-11-26 00:00:00+00:00
+242,Minnesota Timberwolves,125,Atlanta Hawks,113,2019-11-26 00:30:00+00:00
+243,Sacramento Kings,102,Boston Celtics,103,2019-11-26 00:30:00+00:00
+244,Charlotte Hornets,100,Miami Heat,117,2019-11-26 00:30:00+00:00
+245,Philadelphia 76Ers,96,Toronto Raptors,101,2019-11-26 00:30:00+00:00
+246,Portland Trail Blazers,117,Chicago Bulls,94,2019-11-26 01:00:00+00:00
+247,Utah Jazz,118,Milwaukee Bucks,122,2019-11-26 01:00:00+00:00
+248,Los Angeles Lakers,114,San Antonio Spurs,104,2019-11-26 01:30:00+00:00
+249,Oklahoma City Thunder,100,Golden State Warriors,97,2019-11-26 03:30:00+00:00
+250,Los Angeles Clippers,114,Dallas Mavericks,99,2019-11-27 01:30:00+00:00
+251,Washington Wizards,104,Denver Nuggets,117,2019-11-27 02:00:00+00:00
+252,Brooklyn Nets,110,Boston Celtics,121,2019-11-28 00:00:00+00:00
+253,Detroit Pistons,101,Charlotte Hornets,102,2019-11-28 00:00:00+00:00
+254,Orlando Magic,116,Cleveland Cavaliers,104,2019-11-28 00:00:00+00:00
+255,Utah Jazz,102,Indiana Pacers,121,2019-11-28 00:00:00+00:00
+256,Sacramento Kings,91,Philadelphia 76Ers,97,2019-11-28 00:00:00+00:00
+257,New York Knicks,98,Toronto Raptors,126,2019-11-28 00:30:00+00:00
+258,Miami Heat,108,Houston Rockets,117,2019-11-28 01:00:00+00:00
+259,Los Angeles Clippers,121,Memphis Grizzlies,119,2019-11-28 01:00:00+00:00
+260,Atlanta Hawks,102,Milwaukee Bucks,111,2019-11-28 01:00:00+00:00
+261,Minnesota Timberwolves,113,San Antonio Spurs,101,2019-11-28 01:30:00+00:00
+262,Washington Wizards,140,Phoenix Suns,132,2019-11-28 02:00:00+00:00
+263,Los Angeles Lakers,114,New Orleans Pelicans,110,2019-11-28 02:30:00+00:00
+264,Oklahoma City Thunder,119,Portland Trail Blazers,136,2019-11-28 03:00:00+00:00
+265,Chicago Bulls,90,Golden State Warriors,104,2019-11-28 03:30:00+00:00
+266,Boston Celtics,107,Brooklyn Nets,112,2019-11-29 17:00:00+00:00
+267,Charlotte Hornets,110,Detroit Pistons,107,2019-11-30 00:00:00+00:00
+268,Toronto Raptors,90,Orlando Magic,83,2019-11-30 00:00:00+00:00
+269,Milwaukee Bucks,119,Cleveland Cavaliers,110,2019-11-30 00:30:00+00:00
+270,Philadelphia 76Ers,101,New York Knicks,95,2019-11-30 00:30:00+00:00
+271,Atlanta Hawks,104,Indiana Pacers,105,2019-11-30 01:00:00+00:00
+272,Utah Jazz,103,Memphis Grizzlies,94,2019-11-30 01:00:00+00:00
+273,Golden State Warriors,105,Miami Heat,122,2019-11-30 01:00:00+00:00
+274,New Orleans Pelicans,104,Oklahoma City Thunder,109,2019-11-30 01:00:00+00:00
+275,Los Angeles Clippers,97,San Antonio Spurs,107,2019-11-30 01:30:00+00:00
+276,Dallas Mavericks,120,Phoenix Suns,113,2019-11-30 02:00:00+00:00
+277,Chicago Bulls,103,Portland Trail Blazers,107,2019-11-30 03:00:00+00:00
+278,Washington Wizards,103,Los Angeles Lakers,125,2019-11-30 03:30:00+00:00
+279,Denver Nuggets,97,Sacramento Kings,100,2019-11-30 22:00:00+00:00
+280,Indiana Pacers,116,Philadelphia 76Ers,119,2019-12-01 00:00:00+00:00
+281,Atlanta Hawks,111,Houston Rockets,158,2019-12-01 01:00:00+00:00
+282,Charlotte Hornets,96,Milwaukee Bucks,137,2019-12-01 01:00:00+00:00
+283,Miami Heat,109,Brooklyn Nets,106,2019-12-01 20:00:00+00:00
+284,Memphis Grizzlies,115,Minnesota Timberwolves,107,2019-12-01 20:30:00+00:00
+285,Boston Celtics,113,New York Knicks,104,2019-12-01 20:30:00+00:00
+286,Dallas Mavericks,114,Los Angeles Lakers,100,2019-12-01 21:00:00+00:00
+287,San Antonio Spurs,98,Detroit Pistons,132,2019-12-01 22:00:00+00:00
+288,Oklahoma City Thunder,107,New Orleans Pelicans,104,2019-12-01 22:00:00+00:00
+289,Golden State Warriors,96,Orlando Magic,100,2019-12-01 23:00:00+00:00
+290,Utah Jazz,110,Toronto Raptors,130,2019-12-01 23:00:00+00:00
+291,Washington Wizards,125,Los Angeles Clippers,150,2019-12-02 03:30:00+00:00
+292,Phoenix Suns,109,Charlotte Hornets,104,2019-12-03 00:00:00+00:00
+293,Utah Jazz,94,Philadelphia 76Ers,103,2019-12-03 00:00:00+00:00
+294,Golden State Warriors,79,Atlanta Hawks,104,2019-12-03 00:30:00+00:00
+295,Indiana Pacers,117,Memphis Grizzlies,104,2019-12-03 01:00:00+00:00
+296,New York Knicks,88,Milwaukee Bucks,132,2019-12-03 01:00:00+00:00
+297,Chicago Bulls,113,Sacramento Kings,106,2019-12-03 03:00:00+00:00
+298,Detroit Pistons,127,Cleveland Cavaliers,94,2019-12-04 00:00:00+00:00
+299,Orlando Magic,127,Washington Wizards,120,2019-12-04 00:00:00+00:00
+300,Dallas Mavericks,118,New Orleans Pelicans,97,2019-12-04 00:30:00+00:00
+301,Miami Heat,121,Toronto Raptors,110,2019-12-04 00:30:00+00:00
+302,Houston Rockets,133,San Antonio Spurs,135,2019-12-04 01:30:00+00:00
+303,Los Angeles Lakers,105,Denver Nuggets,96,2019-12-04 02:00:00+00:00
+304,Portland Trail Blazers,97,Los Angeles Clippers,117,2019-12-04 03:00:00+00:00
+305,Golden State Warriors,91,Charlotte Hornets,106,2019-12-05 00:00:00+00:00
+306,Milwaukee Bucks,127,Detroit Pistons,103,2019-12-05 00:00:00+00:00
+307,Phoenix Suns,114,Orlando Magic,128,2019-12-05 00:00:00+00:00
+308,Brooklyn Nets,130,Atlanta Hawks,118,2019-12-05 00:30:00+00:00
+309,Miami Heat,93,Boston Celtics,112,2019-12-05 00:30:00+00:00
+310,Memphis Grizzlies,99,Chicago Bulls,106,2019-12-05 01:00:00+00:00
+311,Indiana Pacers,107,Oklahoma City Thunder,100,2019-12-05 01:00:00+00:00
+312,Minnesota Timberwolves,114,Dallas Mavericks,121,2019-12-05 01:30:00+00:00
+313,Los Angeles Lakers,121,Utah Jazz,96,2019-12-05 02:00:00+00:00
+314,Sacramento Kings,116,Portland Trail Blazers,127,2019-12-05 03:00:00+00:00
+315,Philadelphia 76Ers,113,Washington Wizards,119,2019-12-06 00:00:00+00:00
+316,Denver Nuggets,129,New York Knicks,92,2019-12-06 00:30:00+00:00
+317,Houston Rockets,119,Toronto Raptors,109,2019-12-06 00:30:00+00:00
+318,Phoenix Suns,139,New Orleans Pelicans,132,2019-12-06 01:00:00+00:00
+319,Brooklyn Nets,111,Charlotte Hornets,104,2019-12-07 00:00:00+00:00
+320,Orlando Magic,93,Cleveland Cavaliers,87,2019-12-07 00:00:00+00:00
+321,Indiana Pacers,101,Detroit Pistons,108,2019-12-07 00:00:00+00:00
+322,Denver Nuggets,95,Boston Celtics,108,2019-12-07 01:00:00+00:00
+323,Golden State Warriors,100,Chicago Bulls,98,2019-12-07 01:00:00+00:00
+324,Washington Wizards,103,Miami Heat,112,2019-12-07 01:00:00+00:00
+325,Minnesota Timberwolves,127,Oklahoma City Thunder,139,2019-12-07 01:00:00+00:00
+326,Los Angeles Clippers,91,Milwaukee Bucks,119,2019-12-07 01:30:00+00:00
+327,Sacramento Kings,104,San Antonio Spurs,105,2019-12-07 01:30:00+00:00
+328,Los Angeles Lakers,136,Portland Trail Blazers,113,2019-12-07 03:30:00+00:00
+329,New Orleans Pelicans,84,Dallas Mavericks,130,2019-12-07 19:00:00+00:00
+330,Indiana Pacers,104,New York Knicks,103,2019-12-08 00:30:00+00:00
+331,Cleveland Cavaliers,94,Philadelphia 76Ers,141,2019-12-08 00:30:00+00:00
+332,Phoenix Suns,109,Houston Rockets,115,2019-12-08 01:00:00+00:00
+333,Memphis Grizzlies,112,Utah Jazz,126,2019-12-08 03:00:00+00:00
+334,Denver Nuggets,102,Brooklyn Nets,105,2019-12-08 20:00:00+00:00
+335,Atlanta Hawks,122,Charlotte Hornets,107,2019-12-08 22:00:00+00:00
+336,Chicago Bulls,105,Miami Heat,110,2019-12-08 23:00:00+00:00
+337,Toronto Raptors,104,Philadelphia 76Ers,110,2019-12-08 23:00:00+00:00
+338,Los Angeles Clippers,135,Washington Wizards,119,2019-12-08 23:00:00+00:00
+339,Sacramento Kings,110,Dallas Mavericks,106,2019-12-09 00:00:00+00:00
+340,Oklahoma City Thunder,108,Portland Trail Blazers,96,2019-12-09 02:00:00+00:00
+341,Minnesota Timberwolves,125,Los Angeles Lakers,142,2019-12-09 02:30:00+00:00
+342,Los Angeles Clippers,110,Indiana Pacers,99,2019-12-10 00:00:00+00:00
+343,Cleveland Cavaliers,88,Boston Celtics,110,2019-12-10 00:30:00+00:00
+344,Toronto Raptors,93,Chicago Bulls,92,2019-12-10 01:00:00+00:00
+345,Sacramento Kings,119,Houston Rockets,118,2019-12-10 01:00:00+00:00
+346,Orlando Magic,101,Milwaukee Bucks,110,2019-12-10 01:00:00+00:00
+347,Detroit Pistons,105,New Orleans Pelicans,103,2019-12-10 01:00:00+00:00
+348,Minnesota Timberwolves,109,Phoenix Suns,125,2019-12-10 02:00:00+00:00
+349,Oklahoma City Thunder,104,Utah Jazz,90,2019-12-10 02:00:00+00:00
+350,Memphis Grizzlies,110,Golden State Warriors,102,2019-12-10 03:30:00+00:00
+351,Washington Wizards,107,Charlotte Hornets,114,2019-12-11 00:00:00+00:00
+352,Atlanta Hawks,121,Miami Heat,135,2019-12-11 01:00:00+00:00
+353,Denver Nuggets,92,Philadelphia 76Ers,97,2019-12-11 01:00:00+00:00
+354,New York Knicks,87,Portland Trail Blazers,115,2019-12-11 03:00:00+00:00
+355,Houston Rockets,116,Cleveland Cavaliers,110,2019-12-12 00:00:00+00:00
+356,Boston Celtics,117,Indiana Pacers,122,2019-12-12 00:00:00+00:00
+357,Los Angeles Lakers,96,Orlando Magic,87,2019-12-12 00:00:00+00:00
+358,Los Angeles Clippers,112,Toronto Raptors,92,2019-12-12 00:00:00+00:00
+359,Charlotte Hornets,113,Brooklyn Nets,108,2019-12-12 00:30:00+00:00
+360,Atlanta Hawks,102,Chicago Bulls,136,2019-12-12 01:00:00+00:00
+361,Utah Jazz,127,Minnesota Timberwolves,116,2019-12-12 01:00:00+00:00
+362,Memphis Grizzlies,115,Phoenix Suns,108,2019-12-12 02:00:00+00:00
+363,New Orleans Pelicans,112,Milwaukee Bucks,127,2019-12-12 02:30:00+00:00
+364,Oklahoma City Thunder,93,Sacramento Kings,94,2019-12-12 03:00:00+00:00
+365,New York Knicks,124,Golden State Warriors,122,2019-12-12 03:30:00+00:00
+366,Philadelphia 76Ers,115,Boston Celtics,109,2019-12-13 01:00:00+00:00
+367,Cleveland Cavaliers,117,San Antonio Spurs,109,2019-12-13 01:30:00+00:00
+368,Dallas Mavericks,122,Detroit Pistons,111,2019-12-13 02:00:00+00:00
+369,Portland Trail Blazers,99,Denver Nuggets,114,2019-12-13 03:30:00+00:00
+370,Los Angeles Lakers,113,Miami Heat,110,2019-12-14 00:00:00+00:00
+371,Houston Rockets,130,Orlando Magic,107,2019-12-14 00:00:00+00:00
+372,New Orleans Pelicans,109,Philadelphia 76Ers,116,2019-12-14 00:00:00+00:00
+373,Indiana Pacers,110,Atlanta Hawks,100,2019-12-14 00:30:00+00:00
+374,Charlotte Hornets,83,Chicago Bulls,73,2019-12-14 01:00:00+00:00
+375,Milwaukee Bucks,127,Memphis Grizzlies,114,2019-12-14 01:00:00+00:00
+376,Golden State Warriors,106,Utah Jazz,114,2019-12-14 02:00:00+00:00
+377,Los Angeles Clippers,124,Minnesota Timberwolves,117,2019-12-14 02:30:00+00:00
+378,New York Knicks,103,Sacramento Kings,101,2019-12-14 03:00:00+00:00
+379,San Antonio Spurs,121,Phoenix Suns,119,2019-12-14 22:00:00+00:00
+380,Brooklyn Nets,102,Toronto Raptors,110,2019-12-15 00:30:00+00:00
+381,Los Angeles Clippers,106,Chicago Bulls,109,2019-12-15 01:00:00+00:00
+382,Washington Wizards,111,Memphis Grizzlies,128,2019-12-15 01:00:00+00:00
+383,Miami Heat,122,Dallas Mavericks,118,2019-12-15 01:30:00+00:00
+384,Cleveland Cavaliers,108,Milwaukee Bucks,125,2019-12-15 01:30:00+00:00
+385,Oklahoma City Thunder,102,Denver Nuggets,110,2019-12-15 02:00:00+00:00
+386,Detroit Pistons,115,Houston Rockets,107,2019-12-15 02:00:00+00:00
+387,Orlando Magic,130,New Orleans Pelicans,119,2019-12-15 20:30:00+00:00
+388,Charlotte Hornets,85,Indiana Pacers,107,2019-12-15 22:00:00+00:00
+389,Los Angeles Lakers,101,Atlanta Hawks,96,2019-12-15 23:00:00+00:00
+390,Philadelphia 76Ers,89,Brooklyn Nets,109,2019-12-15 23:00:00+00:00
+391,New York Knicks,105,Denver Nuggets,111,2019-12-16 01:00:00+00:00
+392,Sacramento Kings,100,Golden State Warriors,79,2019-12-16 01:30:00+00:00
+393,Washington Wizards,133,Detroit Pistons,119,2019-12-17 00:00:00+00:00
+394,Cleveland Cavaliers,113,Toronto Raptors,133,2019-12-17 00:30:00+00:00
+395,San Antonio Spurs,107,Houston Rockets,109,2019-12-17 01:00:00+00:00
+396,Miami Heat,111,Memphis Grizzlies,118,2019-12-17 01:00:00+00:00
+397,Dallas Mavericks,120,Milwaukee Bucks,116,2019-12-17 01:00:00+00:00
+398,Chicago Bulls,106,Oklahoma City Thunder,109,2019-12-17 01:00:00+00:00
+399,Portland Trail Blazers,111,Phoenix Suns,110,2019-12-17 02:00:00+00:00
+400,Sacramento Kings,102,Charlotte Hornets,110,2019-12-18 00:00:00+00:00
+401,Los Angeles Lakers,102,Indiana Pacers,105,2019-12-18 00:00:00+00:00
+402,Atlanta Hawks,120,New York Knicks,143,2019-12-18 00:30:00+00:00
+403,Brooklyn Nets,108,New Orleans Pelicans,101,2019-12-18 01:00:00+00:00
+404,Orlando Magic,102,Utah Jazz,109,2019-12-18 02:00:00+00:00
+405,Phoenix Suns,99,Los Angeles Clippers,120,2019-12-18 03:30:00+00:00
+406,Charlotte Hornets,98,Cleveland Cavaliers,100,2019-12-19 00:00:00+00:00
+407,Toronto Raptors,112,Detroit Pistons,99,2019-12-19 00:00:00+00:00
+408,Miami Heat,108,Philadelphia 76Ers,104,2019-12-19 00:00:00+00:00
+409,Chicago Bulls,110,Washington Wizards,109,2019-12-19 00:00:00+00:00
+410,New Orleans Pelicans,107,Minnesota Timberwolves,99,2019-12-19 01:00:00+00:00
+411,Memphis Grizzlies,122,Oklahoma City Thunder,126,2019-12-19 01:00:00+00:00
+412,Orlando Magic,104,Denver Nuggets,113,2019-12-19 02:00:00+00:00
+413,Boston Celtics,109,Dallas Mavericks,103,2019-12-19 02:30:00+00:00
+414,Golden State Warriors,112,Portland Trail Blazers,122,2019-12-19 03:00:00+00:00
+415,Utah Jazz,111,Atlanta Hawks,106,2019-12-20 00:30:00+00:00
+416,Los Angeles Lakers,104,Milwaukee Bucks,111,2019-12-20 01:00:00+00:00
+417,Brooklyn Nets,105,San Antonio Spurs,118,2019-12-20 01:30:00+00:00
+418,Houston Rockets,122,Los Angeles Clippers,117,2019-12-20 03:30:00+00:00
+419,Memphis Grizzlies,107,Cleveland Cavaliers,114,2019-12-21 00:00:00+00:00
+420,Sacramento Kings,105,Indiana Pacers,119,2019-12-21 00:00:00+00:00
+421,Detroit Pistons,93,Boston Celtics,114,2019-12-21 00:30:00+00:00
+422,Washington Wizards,118,Toronto Raptors,122,2019-12-21 00:30:00+00:00
+423,New York Knicks,114,Miami Heat,129,2019-12-21 01:00:00+00:00
+424,Phoenix Suns,108,Oklahoma City Thunder,126,2019-12-21 01:00:00+00:00
+425,Dallas Mavericks,117,Philadelphia 76Ers,98,2019-12-21 01:00:00+00:00
+426,Minnesota Timberwolves,100,Denver Nuggets,109,2019-12-21 02:00:00+00:00
+427,Orlando Magic,103,Portland Trail Blazers,118,2019-12-21 03:00:00+00:00
+428,New Orleans Pelicans,102,Golden State Warriors,106,2019-12-21 03:30:00+00:00
+429,Utah Jazz,114,Charlotte Hornets,107,2019-12-21 22:00:00+00:00
+430,Atlanta Hawks,112,Brooklyn Nets,122,2019-12-21 23:00:00+00:00
+431,Chicago Bulls,119,Detroit Pistons,107,2019-12-22 00:00:00+00:00
+432,Washington Wizards,108,Philadelphia 76Ers,125,2019-12-22 00:00:00+00:00
+433,Milwaukee Bucks,123,New York Knicks,102,2019-12-22 00:30:00+00:00
+434,Sacramento Kings,115,Memphis Grizzlies,119,2019-12-22 01:00:00+00:00
+435,Los Angeles Clippers,134,San Antonio Spurs,109,2019-12-22 01:30:00+00:00
+436,Houston Rockets,139,Phoenix Suns,125,2019-12-22 02:00:00+00:00
+437,Minnesota Timberwolves,106,Portland Trail Blazers,113,2019-12-22 03:00:00+00:00
+438,Dallas Mavericks,107,Toronto Raptors,110,2019-12-22 20:30:00+00:00
+439,Charlotte Hornets,93,Boston Celtics,119,2019-12-22 23:00:00+00:00
+440,Indiana Pacers,89,Milwaukee Bucks,117,2019-12-23 00:00:00+00:00
+441,Los Angeles Clippers,112,Oklahoma City Thunder,118,2019-12-23 00:00:00+00:00
+442,Denver Nuggets,128,Los Angeles Lakers,104,2019-12-23 02:30:00+00:00
+443,Atlanta Hawks,118,Cleveland Cavaliers,121,2019-12-24 00:00:00+00:00
+444,Philadelphia 76Ers,125,Detroit Pistons,109,2019-12-24 00:00:00+00:00
+445,Toronto Raptors,115,Indiana Pacers,120,2019-12-24 00:00:00+00:00
+446,Washington Wizards,121,New York Knicks,115,2019-12-24 00:00:00+00:00
+447,Chicago Bulls,95,Orlando Magic,103,2019-12-24 00:00:00+00:00
+448,Utah Jazz,104,Miami Heat,107,2019-12-24 00:30:00+00:00
+449,San Antonio Spurs,145,Memphis Grizzlies,115,2019-12-24 01:00:00+00:00
+450,Denver Nuggets,113,Phoenix Suns,111,2019-12-24 02:00:00+00:00
+451,New Orleans Pelicans,102,Portland Trail Blazers,94,2019-12-24 03:00:00+00:00
+452,Houston Rockets,113,Sacramento Kings,104,2019-12-24 03:00:00+00:00
+453,Minnesota Timberwolves,104,Golden State Warriors,113,2019-12-24 03:30:00+00:00
+454,Boston Celtics,118,Toronto Raptors,102,2019-12-25 17:00:00+00:00
+455,Milwaukee Bucks,109,Philadelphia 76Ers,121,2019-12-25 19:30:00+00:00
+456,Houston Rockets,104,Golden State Warriors,116,2019-12-25 22:00:00+00:00
+457,Los Angeles Clippers,111,Los Angeles Lakers,106,2019-12-26 01:00:00+00:00
+458,New Orleans Pelicans,112,Denver Nuggets,100,2019-12-26 03:30:00+00:00
+459,Washington Wizards,102,Detroit Pistons,132,2019-12-27 00:00:00+00:00
+460,New York Knicks,94,Brooklyn Nets,82,2019-12-27 00:30:00+00:00
+461,San Antonio Spurs,98,Dallas Mavericks,102,2019-12-27 01:00:00+00:00
+462,Memphis Grizzlies,110,Oklahoma City Thunder,97,2019-12-27 01:00:00+00:00
+463,Minnesota Timberwolves,105,Sacramento Kings,104,2019-12-27 03:00:00+00:00
+464,Portland Trail Blazers,115,Utah Jazz,121,2019-12-27 03:30:00+00:00
+465,Cleveland Cavaliers,117,Boston Celtics,129,2019-12-27 21:00:00+00:00
+466,Oklahoma City Thunder,104,Charlotte Hornets,102,2019-12-28 00:00:00+00:00
+467,Philadelphia 76Ers,97,Orlando Magic,98,2019-12-28 00:00:00+00:00
+468,Milwaukee Bucks,112,Atlanta Hawks,86,2019-12-28 00:30:00+00:00
+469,Indiana Pacers,112,Miami Heat,113,2019-12-28 01:00:00+00:00
+470,Phoenix Suns,96,Golden State Warriors,105,2019-12-28 03:30:00+00:00
+471,Memphis Grizzlies,110,Denver Nuggets,119,2019-12-28 22:00:00+00:00
+472,Toronto Raptors,113,Boston Celtics,97,2019-12-29 00:00:00+00:00
+473,Indiana Pacers,98,New Orleans Pelicans,120,2019-12-29 00:00:00+00:00
+474,Atlanta Hawks,81,Chicago Bulls,116,2019-12-29 01:00:00+00:00
+475,Brooklyn Nets,98,Houston Rockets,108,2019-12-29 01:00:00+00:00
+476,Philadelphia 76Ers,116,Miami Heat,117,2019-12-29 01:00:00+00:00
+477,Cleveland Cavaliers,94,Minnesota Timberwolves,88,2019-12-29 01:00:00+00:00
+478,New York Knicks,107,Washington Wizards,100,2019-12-29 01:00:00+00:00
+479,Dallas Mavericks,141,Golden State Warriors,121,2019-12-29 01:30:00+00:00
+480,Orlando Magic,100,Milwaukee Bucks,111,2019-12-29 01:30:00+00:00
+481,Detroit Pistons,109,San Antonio Spurs,136,2019-12-29 01:30:00+00:00
+482,Phoenix Suns,112,Sacramento Kings,110,2019-12-29 02:00:00+00:00
+483,Los Angeles Lakers,128,Portland Trail Blazers,120,2019-12-29 03:00:00+00:00
+484,Utah Jazz,120,Los Angeles Clippers,107,2019-12-29 03:30:00+00:00
+485,Oklahoma City Thunder,98,Toronto Raptors,97,2019-12-29 23:00:00+00:00
+486,Sacramento Kings,115,Denver Nuggets,120,2019-12-30 01:00:00+00:00
+487,Charlotte Hornets,104,Memphis Grizzlies,117,2019-12-30 01:00:00+00:00
+488,Houston Rockets,112,New Orleans Pelicans,127,2019-12-30 01:00:00+00:00
+489,Dallas Mavericks,95,Los Angeles Lakers,108,2019-12-30 02:30:00+00:00
+490,Atlanta Hawks,101,Orlando Magic,93,2019-12-31 00:00:00+00:00
+491,Miami Heat,105,Washington Wizards,123,2019-12-31 00:00:00+00:00
+492,Milwaukee Bucks,123,Chicago Bulls,102,2019-12-31 01:00:00+00:00
+493,Brooklyn Nets,115,Minnesota Timberwolves,122,2019-12-31 01:00:00+00:00
+494,Detroit Pistons,81,Utah Jazz,104,2019-12-31 02:00:00+00:00
+495,Phoenix Suns,122,Portland Trail Blazers,116,2019-12-31 03:00:00+00:00
+496,Boston Celtics,109,Charlotte Hornets,92,2019-12-31 20:00:00+00:00
+497,Philadelphia 76Ers,97,Indiana Pacers,115,2019-12-31 20:00:00+00:00
+498,Los Angeles Clippers,105,Sacramento Kings,87,2019-12-31 22:00:00+00:00
+499,Denver Nuggets,104,Houston Rockets,130,2020-01-01 00:00:00+00:00
+500,Golden State Warriors,113,San Antonio Spurs,117,2020-01-01 00:00:00+00:00
+501,Cleveland Cavaliers,97,Toronto Raptors,117,2020-01-01 00:00:00+00:00
+502,Dallas Mavericks,101,Oklahoma City Thunder,106,2020-01-01 01:00:00+00:00
+503,Orlando Magic,122,Washington Wizards,101,2020-01-01 23:00:00+00:00
+504,Portland Trail Blazers,93,New York Knicks,117,2020-01-02 00:30:00+00:00
+505,Minnesota Timberwolves,104,Milwaukee Bucks,106,2020-01-02 01:00:00+00:00
+506,Phoenix Suns,107,Los Angeles Lakers,117,2020-01-02 03:30:00+00:00
+507,Charlotte Hornets,109,Cleveland Cavaliers,106,2020-01-03 00:00:00+00:00
+508,Denver Nuggets,124,Indiana Pacers,116,2020-01-03 00:00:00+00:00
+509,Toronto Raptors,76,Miami Heat,84,2020-01-03 00:30:00+00:00
+510,Utah Jazz,102,Chicago Bulls,98,2020-01-03 01:00:00+00:00
+511,Golden State Warriors,84,Minnesota Timberwolves,99,2020-01-03 01:00:00+00:00
+512,Brooklyn Nets,111,Dallas Mavericks,123,2020-01-03 01:30:00+00:00
+513,Oklahoma City Thunder,109,San Antonio Spurs,103,2020-01-03 01:30:00+00:00
+514,Memphis Grizzlies,123,Sacramento Kings,128,2020-01-03 03:00:00+00:00
+515,Detroit Pistons,112,Los Angeles Clippers,126,2020-01-03 03:30:00+00:00
+516,Atlanta Hawks,106,Boston Celtics,109,2020-01-04 00:00:00+00:00
+517,Miami Heat,85,Orlando Magic,105,2020-01-04 00:00:00+00:00
+518,Portland Trail Blazers,122,Washington Wizards,103,2020-01-04 00:00:00+00:00
+519,Philadelphia 76Ers,108,Houston Rockets,118,2020-01-04 01:00:00+00:00
+520,New York Knicks,112,Phoenix Suns,120,2020-01-04 02:00:00+00:00
+521,New Orleans Pelicans,113,Los Angeles Lakers,123,2020-01-04 03:30:00+00:00
+522,Memphis Grizzlies,140,Los Angeles Clippers,114,2020-01-04 20:30:00+00:00
+523,Toronto Raptors,121,Brooklyn Nets,102,2020-01-04 23:00:00+00:00
+524,Utah Jazz,109,Orlando Magic,96,2020-01-05 00:00:00+00:00
+525,Indiana Pacers,111,Atlanta Hawks,116,2020-01-05 00:30:00+00:00
+526,Oklahoma City Thunder,121,Cleveland Cavaliers,106,2020-01-05 00:30:00+00:00
+527,Boston Celtics,111,Chicago Bulls,104,2020-01-05 01:00:00+00:00
+528,Denver Nuggets,114,Washington Wizards,128,2020-01-05 01:00:00+00:00
+529,Charlotte Hornets,123,Dallas Mavericks,120,2020-01-05 01:30:00+00:00
+530,Detroit Pistons,111,Golden State Warriors,104,2020-01-05 01:30:00+00:00
+531,San Antonio Spurs,118,Milwaukee Bucks,127,2020-01-05 01:30:00+00:00
+532,New Orleans Pelicans,117,Sacramento Kings,115,2020-01-05 03:00:00+00:00
+533,New York Knicks,132,Los Angeles Clippers,135,2020-01-05 20:30:00+00:00
+534,Portland Trail Blazers,111,Miami Heat,122,2020-01-05 23:00:00+00:00
+535,Minnesota Timberwolves,118,Cleveland Cavaliers,103,2020-01-06 00:30:00+00:00
+536,Memphis Grizzlies,121,Phoenix Suns,114,2020-01-06 01:00:00+00:00
+537,Detroit Pistons,99,Los Angeles Lakers,106,2020-01-06 03:00:00+00:00
+538,Indiana Pacers,115,Charlotte Hornets,104,2020-01-07 00:00:00+00:00
+539,Brooklyn Nets,89,Orlando Magic,101,2020-01-07 00:00:00+00:00
+540,Oklahoma City Thunder,113,Philadelphia 76Ers,120,2020-01-07 00:00:00+00:00
+541,Boston Celtics,94,Washington Wizards,99,2020-01-07 00:00:00+00:00
+542,Denver Nuggets,123,Atlanta Hawks,115,2020-01-07 00:30:00+00:00
+543,Utah Jazz,128,New Orleans Pelicans,126,2020-01-07 01:00:00+00:00
+544,Chicago Bulls,110,Dallas Mavericks,118,2020-01-07 01:30:00+00:00
+545,Milwaukee Bucks,104,San Antonio Spurs,126,2020-01-07 01:30:00+00:00
+546,Golden State Warriors,98,Sacramento Kings,111,2020-01-07 03:00:00+00:00
+547,Detroit Pistons,115,Cleveland Cavaliers,113,2020-01-08 00:00:00+00:00
+548,Portland Trail Blazers,101,Toronto Raptors,99,2020-01-08 00:00:00+00:00
+549,Oklahoma City Thunder,111,Brooklyn Nets,103,2020-01-08 00:30:00+00:00
+550,Minnesota Timberwolves,112,Memphis Grizzlies,119,2020-01-08 01:00:00+00:00
+551,Sacramento Kings,114,Phoenix Suns,103,2020-01-08 02:00:00+00:00
+552,New York Knicks,87,Los Angeles Lakers,117,2020-01-08 03:30:00+00:00
+553,San Antonio Spurs,129,Boston Celtics,114,2020-01-09 00:00:00+00:00
+554,Toronto Raptors,112,Charlotte Hornets,110,2020-01-09 00:00:00+00:00
+555,Miami Heat,122,Indiana Pacers,108,2020-01-09 00:00:00+00:00
+556,Washington Wizards,89,Orlando Magic,123,2020-01-09 00:00:00+00:00
+557,Houston Rockets,122,Atlanta Hawks,115,2020-01-09 00:30:00+00:00
+558,Denver Nuggets,107,Dallas Mavericks,106,2020-01-09 00:30:00+00:00
+559,Chicago Bulls,108,New Orleans Pelicans,123,2020-01-09 01:00:00+00:00
+560,New York Knicks,104,Utah Jazz,128,2020-01-09 02:00:00+00:00
+561,Milwaukee Bucks,107,Golden State Warriors,98,2020-01-09 03:00:00+00:00
+562,Cleveland Cavaliers,115,Detroit Pistons,112,2020-01-10 00:00:00+00:00
+563,Boston Celtics,98,Philadelphia 76Ers,109,2020-01-10 00:00:00+00:00
+564,Portland Trail Blazers,102,Minnesota Timberwolves,116,2020-01-10 01:00:00+00:00
+565,Houston Rockets,92,Oklahoma City Thunder,113,2020-01-10 02:30:00+00:00
+566,Atlanta Hawks,101,Washington Wizards,111,2020-01-11 00:00:00+00:00
+567,New Orleans Pelicans,123,New York Knicks,111,2020-01-11 00:15:00+00:00
+568,Miami Heat,113,Brooklyn Nets,117,2020-01-11 00:30:00+00:00
+569,Indiana Pacers,116,Chicago Bulls,105,2020-01-11 01:00:00+00:00
+570,San Antonio Spurs,121,Memphis Grizzlies,134,2020-01-11 01:00:00+00:00
+571,Orlando Magic,94,Phoenix Suns,98,2020-01-11 02:00:00+00:00
+572,Charlotte Hornets,92,Utah Jazz,109,2020-01-11 02:00:00+00:00
+573,Los Angeles Lakers,129,Dallas Mavericks,114,2020-01-11 02:45:00+00:00
+574,Milwaukee Bucks,127,Sacramento Kings,106,2020-01-11 03:00:00+00:00
+575,Golden State Warriors,100,Los Angeles Clippers,109,2020-01-11 03:30:00+00:00
+576,Minnesota Timberwolves,109,Houston Rockets,139,2020-01-11 22:00:00+00:00
+577,New Orleans Pelicans,105,Boston Celtics,140,2020-01-12 00:00:00+00:00
+578,Chicago Bulls,108,Detroit Pistons,99,2020-01-12 00:00:00+00:00
+579,Los Angeles Lakers,125,Oklahoma City Thunder,110,2020-01-12 01:00:00+00:00
+580,Philadelphia 76Ers,91,Dallas Mavericks,109,2020-01-12 01:30:00+00:00
+581,Cleveland Cavaliers,111,Denver Nuggets,103,2020-01-12 02:00:00+00:00
+582,Milwaukee Bucks,122,Portland Trail Blazers,101,2020-01-12 03:00:00+00:00
+583,Miami Heat,121,New York Knicks,124,2020-01-12 20:30:00+00:00
+584,Utah Jazz,127,Washington Wizards,116,2020-01-12 20:30:00+00:00
+585,Atlanta Hawks,86,Brooklyn Nets,108,2020-01-12 23:00:00+00:00
+586,Golden State Warriors,102,Memphis Grizzlies,122,2020-01-12 23:00:00+00:00
+587,San Antonio Spurs,105,Toronto Raptors,104,2020-01-12 23:00:00+00:00
+588,Los Angeles Clippers,104,Denver Nuggets,114,2020-01-13 01:00:00+00:00
+589,Charlotte Hornets,92,Phoenix Suns,100,2020-01-13 01:00:00+00:00
+590,New Orleans Pelicans,117,Detroit Pistons,110,2020-01-14 00:00:00+00:00
+591,Philadelphia 76Ers,95,Indiana Pacers,101,2020-01-14 00:00:00+00:00
+592,Chicago Bulls,101,Boston Celtics,113,2020-01-14 00:30:00+00:00
+593,Oklahoma City Thunder,117,Minnesota Timberwolves,104,2020-01-14 01:00:00+00:00
+594,Charlotte Hornets,112,Portland Trail Blazers,115,2020-01-14 03:00:00+00:00
+595,Orlando Magic,114,Sacramento Kings,112,2020-01-14 03:00:00+00:00
+596,Cleveland Cavaliers,99,Los Angeles Lakers,128,2020-01-14 03:30:00+00:00
+597,Phoenix Suns,110,Atlanta Hawks,123,2020-01-15 00:30:00+00:00
+598,Utah Jazz,118,Brooklyn Nets,107,2020-01-15 00:30:00+00:00
+599,Houston Rockets,110,Memphis Grizzlies,121,2020-01-15 01:00:00+00:00
+600,New York Knicks,102,Milwaukee Bucks,128,2020-01-15 01:00:00+00:00
+601,Dallas Mavericks,124,Golden State Warriors,97,2020-01-15 03:30:00+00:00
+602,Cleveland Cavaliers,103,Los Angeles Clippers,128,2020-01-15 03:30:00+00:00
+603,Detroit Pistons,116,Boston Celtics,103,2020-01-16 00:00:00+00:00
+604,Brooklyn Nets,106,Philadelphia 76Ers,117,2020-01-16 00:00:00+00:00
+605,San Antonio Spurs,100,Miami Heat,106,2020-01-16 00:30:00+00:00
+606,Washington Wizards,106,Chicago Bulls,115,2020-01-16 01:00:00+00:00
+607,Indiana Pacers,104,Minnesota Timberwolves,99,2020-01-16 01:00:00+00:00
+608,Toronto Raptors,130,Oklahoma City Thunder,121,2020-01-16 01:00:00+00:00
+609,Charlotte Hornets,86,Denver Nuggets,100,2020-01-16 02:00:00+00:00
+610,Portland Trail Blazers,117,Houston Rockets,107,2020-01-16 02:30:00+00:00
+611,Dallas Mavericks,127,Sacramento Kings,123,2020-01-16 03:00:00+00:00
+612,Orlando Magic,119,Los Angeles Lakers,118,2020-01-16 03:30:00+00:00
+613,Phoenix Suns,121,New York Knicks,98,2020-01-17 00:30:00+00:00
+614,Boston Celtics,123,Milwaukee Bucks,128,2020-01-17 01:00:00+00:00
+615,Utah Jazz,132,New Orleans Pelicans,138,2020-01-17 01:00:00+00:00
+616,Denver Nuggets,134,Golden State Warriors,131,2020-01-17 03:30:00+00:00
+617,Orlando Magic,95,Los Angeles Clippers,122,2020-01-17 03:30:00+00:00
+618,Minnesota Timberwolves,114,Indiana Pacers,116,2020-01-18 00:00:00+00:00
+619,Chicago Bulls,89,Philadelphia 76Ers,100,2020-01-18 00:00:00+00:00
+620,Washington Wizards,111,Toronto Raptors,140,2020-01-18 00:00:00+00:00
+621,Cleveland Cavaliers,109,Memphis Grizzlies,113,2020-01-18 01:00:00+00:00
+622,Miami Heat,115,Oklahoma City Thunder,108,2020-01-18 01:00:00+00:00
+623,Atlanta Hawks,121,San Antonio Spurs,120,2020-01-18 01:30:00+00:00
+624,Portland Trail Blazers,112,Dallas Mavericks,120,2020-01-18 02:30:00+00:00
+625,Los Angeles Clippers,133,New Orleans Pelicans,130,2020-01-18 20:30:00+00:00
+626,Milwaukee Bucks,117,Brooklyn Nets,97,2020-01-18 23:00:00+00:00
+627,Phoenix Suns,123,Boston Celtics,119,2020-01-19 00:00:00+00:00
+628,Detroit Pistons,136,Atlanta Hawks,103,2020-01-19 00:30:00+00:00
+629,Philadelphia 76Ers,90,New York Knicks,87,2020-01-19 00:30:00+00:00
+630,Cleveland Cavaliers,116,Chicago Bulls,118,2020-01-19 01:00:00+00:00
+631,Toronto Raptors,122,Minnesota Timberwolves,112,2020-01-19 01:00:00+00:00
+632,Orlando Magic,95,Golden State Warriors,109,2020-01-19 01:30:00+00:00
+633,Los Angeles Lakers,124,Houston Rockets,115,2020-01-19 01:30:00+00:00
+634,Portland Trail Blazers,106,Oklahoma City Thunder,119,2020-01-19 02:00:00+00:00
+635,Sacramento Kings,101,Utah Jazz,123,2020-01-19 02:00:00+00:00
+636,Miami Heat,102,San Antonio Spurs,107,2020-01-19 20:00:00+00:00
+637,Indiana Pacers,115,Denver Nuggets,107,2020-01-20 01:00:00+00:00
+638,Detroit Pistons,100,Washington Wizards,106,2020-01-20 19:00:00+00:00
+639,Toronto Raptors,122,Atlanta Hawks,117,2020-01-20 19:30:00+00:00
+640,Philadelphia 76Ers,117,Brooklyn Nets,111,2020-01-20 20:00:00+00:00
+641,Orlando Magic,106,Charlotte Hornets,83,2020-01-20 22:00:00+00:00
+642,New York Knicks,106,Cleveland Cavaliers,86,2020-01-20 22:00:00+00:00
+643,Oklahoma City Thunder,112,Houston Rockets,107,2020-01-20 22:00:00+00:00
+644,New Orleans Pelicans,126,Memphis Grizzlies,116,2020-01-20 22:00:00+00:00
+645,Sacramento Kings,113,Miami Heat,118,2020-01-20 22:00:00+00:00
+646,Chicago Bulls,98,Milwaukee Bucks,111,2020-01-20 22:00:00+00:00
+647,Los Angeles Lakers,107,Boston Celtics,139,2020-01-21 00:30:00+00:00
+648,Denver Nuggets,107,Minnesota Timberwolves,100,2020-01-21 01:00:00+00:00
+649,San Antonio Spurs,120,Phoenix Suns,118,2020-01-21 02:00:00+00:00
+650,Indiana Pacers,88,Utah Jazz,118,2020-01-21 02:00:00+00:00
+651,Golden State Warriors,124,Portland Trail Blazers,129,2020-01-21 03:00:00+00:00
+652,Los Angeles Clippers,110,Dallas Mavericks,107,2020-01-22 01:30:00+00:00
+653,Sacramento Kings,106,Detroit Pistons,127,2020-01-23 00:00:00+00:00
+654,Oklahoma City Thunder,120,Orlando Magic,114,2020-01-23 00:00:00+00:00
+655,Philadelphia 76Ers,95,Toronto Raptors,107,2020-01-23 00:00:00+00:00
+656,Los Angeles Clippers,95,Atlanta Hawks,102,2020-01-23 00:30:00+00:00
+657,Memphis Grizzlies,95,Boston Celtics,119,2020-01-23 00:30:00+00:00
+658,Washington Wizards,129,Miami Heat,134,2020-01-23 00:30:00+00:00
+659,Los Angeles Lakers,100,New York Knicks,92,2020-01-23 00:30:00+00:00
+660,Minnesota Timberwolves,110,Chicago Bulls,117,2020-01-23 01:00:00+00:00
+661,Denver Nuggets,105,Houston Rockets,121,2020-01-23 01:00:00+00:00
+662,Indiana Pacers,112,Phoenix Suns,87,2020-01-23 02:00:00+00:00
+663,San Antonio Spurs,121,New Orleans Pelicans,117,2020-01-23 02:30:00+00:00
+664,Utah Jazz,129,Golden State Warriors,96,2020-01-23 03:00:00+00:00
+665,Washington Wizards,124,Cleveland Cavaliers,112,2020-01-24 00:00:00+00:00
+666,Los Angeles Lakers,128,Brooklyn Nets,113,2020-01-24 01:00:00+00:00
+667,Dallas Mavericks,133,Portland Trail Blazers,125,2020-01-24 03:30:00+00:00
+668,Milwaukee Bucks,116,Charlotte Hornets,103,2020-01-24 20:00:00+00:00
+669,Memphis Grizzlies,125,Detroit Pistons,112,2020-01-25 00:00:00+00:00
+670,Boston Celtics,109,Orlando Magic,98,2020-01-25 00:00:00+00:00
+671,Toronto Raptors,118,New York Knicks,112,2020-01-25 00:30:00+00:00
+672,Sacramento Kings,98,Chicago Bulls,81,2020-01-25 01:00:00+00:00
+673,Los Angeles Clippers,122,Miami Heat,117,2020-01-25 01:00:00+00:00
+674,Houston Rockets,131,Minnesota Timberwolves,124,2020-01-25 01:00:00+00:00
+675,Denver Nuggets,113,New Orleans Pelicans,106,2020-01-25 01:00:00+00:00
+676,Atlanta Hawks,111,Oklahoma City Thunder,140,2020-01-25 01:00:00+00:00
+677,Phoenix Suns,103,San Antonio Spurs,99,2020-01-25 01:30:00+00:00
+678,Indiana Pacers,129,Golden State Warriors,118,2020-01-25 03:30:00+00:00
+679,Dallas Mavericks,107,Utah Jazz,112,2020-01-25 22:00:00+00:00
+680,Brooklyn Nets,121,Detroit Pistons,111,2020-01-26 00:00:00+00:00
+681,Chicago Bulls,118,Cleveland Cavaliers,106,2020-01-26 01:00:00+00:00
+682,Oklahoma City Thunder,113,Minnesota Timberwolves,104,2020-01-26 01:00:00+00:00
+683,Los Angeles Lakers,91,Philadelphia 76Ers,108,2020-01-26 01:30:00+00:00
+684,Houston Rockets,110,Denver Nuggets,117,2020-01-26 20:30:00+00:00
+685,Toronto Raptors,110,San Antonio Spurs,106,2020-01-26 21:00:00+00:00
+686,Washington Wizards,133,Atlanta Hawks,152,2020-01-26 23:00:00+00:00
+687,Phoenix Suns,109,Memphis Grizzlies,114,2020-01-26 23:00:00+00:00
+688,Boston Celtics,108,New Orleans Pelicans,123,2020-01-26 23:00:00+00:00
+689,Brooklyn Nets,97,New York Knicks,110,2020-01-26 23:00:00+00:00
+690,Los Angeles Clippers,112,Orlando Magic,97,2020-01-26 23:00:00+00:00
+691,Indiana Pacers,129,Portland Trail Blazers,139,2020-01-27 02:00:00+00:00
+692,Cleveland Cavaliers,115,Detroit Pistons,100,2020-01-28 00:00:00+00:00
+693,Orlando Magic,92,Miami Heat,113,2020-01-28 00:30:00+00:00
+694,San Antonio Spurs,109,Chicago Bulls,110,2020-01-28 01:00:00+00:00
+695,Sacramento Kings,133,Minnesota Timberwolves,129,2020-01-28 01:00:00+00:00
+696,Dallas Mavericks,107,Oklahoma City Thunder,97,2020-01-28 01:00:00+00:00
+697,Houston Rockets,126,Utah Jazz,117,2020-01-28 02:00:00+00:00
+698,New York Knicks,92,Charlotte Hornets,97,2020-01-29 00:00:00+00:00
+699,Golden State Warriors,104,Philadelphia 76Ers,115,2020-01-29 00:00:00+00:00
+700,New Orleans Pelicans,125,Cleveland Cavaliers,111,2020-01-29 00:30:00+00:00
+701,Atlanta Hawks,114,Toronto Raptors,130,2020-01-29 00:30:00+00:00
+702,Denver Nuggets,96,Memphis Grizzlies,104,2020-01-29 01:00:00+00:00
+703,Boston Celtics,109,Miami Heat,101,2020-01-29 01:00:00+00:00
+704,Washington Wizards,131,Milwaukee Bucks,151,2020-01-29 01:00:00+00:00
+705,Phoenix Suns,133,Dallas Mavericks,104,2020-01-29 01:30:00+00:00
+706,Chicago Bulls,106,Indiana Pacers,115,2020-01-30 00:00:00+00:00
+707,Detroit Pistons,115,Brooklyn Nets,125,2020-01-30 00:30:00+00:00
+708,Memphis Grizzlies,127,New York Knicks,106,2020-01-30 00:30:00+00:00
+709,Utah Jazz,120,San Antonio Spurs,127,2020-01-30 01:30:00+00:00
+710,Houston Rockets,112,Portland Trail Blazers,125,2020-01-30 03:00:00+00:00
+711,Oklahoma City Thunder,120,Sacramento Kings,100,2020-01-30 03:00:00+00:00
+712,Toronto Raptors,115,Cleveland Cavaliers,109,2020-01-31 00:00:00+00:00
+713,Charlotte Hornets,107,Washington Wizards,121,2020-01-31 00:00:00+00:00
+714,Philadelphia 76Ers,117,Atlanta Hawks,127,2020-01-31 00:30:00+00:00
+715,Golden State Warriors,104,Boston Celtics,119,2020-01-31 01:00:00+00:00
+716,Utah Jazz,100,Denver Nuggets,106,2020-01-31 03:30:00+00:00
+717,Sacramento Kings,124,Los Angeles Clippers,103,2020-01-31 03:30:00+00:00
+718,Toronto Raptors,105,Detroit Pistons,92,2020-02-01 00:00:00+00:00
+719,Chicago Bulls,118,Brooklyn Nets,133,2020-02-01 00:30:00+00:00
+720,Dallas Mavericks,121,Houston Rockets,128,2020-02-01 00:30:00+00:00
+721,Memphis Grizzlies,111,New Orleans Pelicans,139,2020-02-01 01:00:00+00:00
+722,Denver Nuggets,127,Milwaukee Bucks,115,2020-02-01 02:00:00+00:00
+723,Oklahoma City Thunder,111,Phoenix Suns,107,2020-02-01 02:00:00+00:00
+724,Portland Trail Blazers,127,Los Angeles Lakers,119,2020-02-01 03:30:00+00:00
+725,Minnesota Timberwolves,106,Los Angeles Clippers,118,2020-02-01 20:30:00+00:00
+726,New York Knicks,92,Indiana Pacers,85,2020-02-02 00:00:00+00:00
+727,Miami Heat,102,Orlando Magic,89,2020-02-02 00:00:00+00:00
+728,Golden State Warriors,131,Cleveland Cavaliers,112,2020-02-02 01:00:00+00:00
+729,Brooklyn Nets,107,Washington Wizards,113,2020-02-02 01:00:00+00:00
+730,Philadelphia 76Ers,95,Boston Celtics,116,2020-02-02 01:30:00+00:00
+731,Atlanta Hawks,100,Dallas Mavericks,123,2020-02-02 01:30:00+00:00
+732,Charlotte Hornets,90,San Antonio Spurs,114,2020-02-02 02:00:00+00:00
+733,Los Angeles Lakers,129,Sacramento Kings,113,2020-02-02 03:00:00+00:00
+734,Utah Jazz,107,Portland Trail Blazers,124,2020-02-02 03:30:00+00:00
+735,Denver Nuggets,123,Detroit Pistons,128,2020-02-02 17:30:00+00:00
+736,New Orleans Pelicans,109,Houston Rockets,117,2020-02-02 19:00:00+00:00
+737,Phoenix Suns,108,Milwaukee Bucks,129,2020-02-02 19:00:00+00:00
+738,Chicago Bulls,102,Toronto Raptors,129,2020-02-02 20:00:00+00:00
+739,Orlando Magic,112,Charlotte Hornets,100,2020-02-04 00:00:00+00:00
+740,New York Knicks,139,Cleveland Cavaliers,134,2020-02-04 00:00:00+00:00
+741,Dallas Mavericks,112,Indiana Pacers,103,2020-02-04 00:00:00+00:00
+742,Golden State Warriors,125,Washington Wizards,117,2020-02-04 00:00:00+00:00
+743,Boston Celtics,123,Atlanta Hawks,115,2020-02-04 00:30:00+00:00
+744,Phoenix Suns,97,Brooklyn Nets,119,2020-02-04 00:30:00+00:00
+745,Philadelphia 76Ers,106,Miami Heat,137,2020-02-04 00:30:00+00:00
+746,Detroit Pistons,82,Memphis Grizzlies,96,2020-02-04 01:00:00+00:00
+747,Minnesota Timberwolves,109,Sacramento Kings,113,2020-02-04 03:00:00+00:00
+748,San Antonio Spurs,105,Los Angeles Clippers,108,2020-02-04 03:30:00+00:00
+749,Milwaukee Bucks,120,New Orleans Pelicans,108,2020-02-05 00:30:00+00:00
+750,Charlotte Hornets,110,Houston Rockets,125,2020-02-05 01:00:00+00:00
+751,Portland Trail Blazers,99,Denver Nuggets,127,2020-02-05 02:00:00+00:00
+752,San Antonio Spurs,102,Los Angeles Lakers,129,2020-02-05 03:00:00+00:00
+753,Phoenix Suns,108,Detroit Pistons,116,2020-02-06 00:00:00+00:00
+754,Orlando Magic,100,Boston Celtics,116,2020-02-06 00:30:00+00:00
+755,Golden State Warriors,88,Brooklyn Nets,129,2020-02-06 00:30:00+00:00
+756,Indiana Pacers,118,Toronto Raptors,119,2020-02-06 00:30:00+00:00
+757,Atlanta Hawks,127,Minnesota Timberwolves,120,2020-02-06 01:00:00+00:00
+758,Cleveland Cavaliers,103,Oklahoma City Thunder,109,2020-02-06 01:00:00+00:00
+759,Memphis Grizzlies,121,Dallas Mavericks,107,2020-02-06 01:30:00+00:00
+760,Denver Nuggets,98,Utah Jazz,95,2020-02-06 02:00:00+00:00
+761,Miami Heat,111,Los Angeles Clippers,128,2020-02-06 03:00:00+00:00
+762,Orlando Magic,103,New York Knicks,105,2020-02-07 00:30:00+00:00
+763,New Orleans Pelicans,125,Chicago Bulls,119,2020-02-07 01:00:00+00:00
+764,Philadelphia 76Ers,101,Milwaukee Bucks,112,2020-02-07 01:00:00+00:00
+765,San Antonio Spurs,117,Portland Trail Blazers,125,2020-02-07 03:00:00+00:00
+766,Houston Rockets,121,Los Angeles Lakers,111,2020-02-07 03:30:00+00:00
+767,Memphis Grizzlies,107,Philadelphia 76Ers,119,2020-02-08 00:00:00+00:00
+768,Dallas Mavericks,118,Washington Wizards,119,2020-02-08 00:00:00+00:00
+769,Atlanta Hawks,107,Boston Celtics,112,2020-02-08 00:30:00+00:00
+770,Toronto Raptors,115,Indiana Pacers,106,2020-02-08 01:00:00+00:00
+771,Detroit Pistons,101,Oklahoma City Thunder,108,2020-02-08 01:00:00+00:00
+772,Houston Rockets,91,Phoenix Suns,127,2020-02-08 02:00:00+00:00
+773,Miami Heat,97,Sacramento Kings,105,2020-02-08 03:00:00+00:00
+774,Portland Trail Blazers,114,Utah Jazz,117,2020-02-08 03:30:00+00:00
+775,Milwaukee Bucks,111,Orlando Magic,95,2020-02-08 22:00:00+00:00
+776,Dallas Mavericks,116,Charlotte Hornets,100,2020-02-09 00:00:00+00:00
+777,New York Knicks,95,Detroit Pistons,92,2020-02-09 00:00:00+00:00
+778,New Orleans Pelicans,124,Indiana Pacers,117,2020-02-09 00:30:00+00:00
+779,Brooklyn Nets,118,Toronto Raptors,119,2020-02-09 00:30:00+00:00
+780,Los Angeles Clippers,115,Minnesota Timberwolves,142,2020-02-09 01:00:00+00:00
+781,Los Angeles Lakers,125,Golden State Warriors,120,2020-02-09 01:30:00+00:00
+782,Denver Nuggets,117,Phoenix Suns,108,2020-02-09 02:00:00+00:00
+783,San Antonio Spurs,102,Sacramento Kings,122,2020-02-09 03:00:00+00:00
+784,Boston Celtics,112,Oklahoma City Thunder,111,2020-02-09 20:30:00+00:00
+785,New York Knicks,135,Atlanta Hawks,140,2020-02-09 23:00:00+00:00
+786,Chicago Bulls,111,Philadelphia 76Ers,118,2020-02-09 23:00:00+00:00
+787,Memphis Grizzlies,106,Washington Wizards,99,2020-02-09 23:00:00+00:00
+788,Utah Jazz,114,Houston Rockets,113,2020-02-10 00:00:00+00:00
+789,Los Angeles Clippers,133,Cleveland Cavaliers,92,2020-02-10 00:30:00+00:00
+790,Miami Heat,109,Portland Trail Blazers,115,2020-02-10 02:00:00+00:00
+791,Charlotte Hornets,87,Detroit Pistons,76,2020-02-11 00:00:00+00:00
+792,Brooklyn Nets,106,Indiana Pacers,105,2020-02-11 00:00:00+00:00
+793,Atlanta Hawks,126,Orlando Magic,135,2020-02-11 00:00:00+00:00
+794,Minnesota Timberwolves,126,Toronto Raptors,137,2020-02-11 00:30:00+00:00
+795,Sacramento Kings,111,Milwaukee Bucks,123,2020-02-11 01:00:00+00:00
+796,Utah Jazz,123,Dallas Mavericks,119,2020-02-11 01:30:00+00:00
+797,San Antonio Spurs,120,Denver Nuggets,127,2020-02-11 02:00:00+00:00
+798,Miami Heat,113,Golden State Warriors,101,2020-02-11 03:30:00+00:00
+799,Phoenix Suns,100,Los Angeles Lakers,125,2020-02-11 03:30:00+00:00
+800,Los Angeles Clippers,103,Philadelphia 76Ers,110,2020-02-12 00:00:00+00:00
+801,Chicago Bulls,114,Washington Wizards,126,2020-02-12 00:00:00+00:00
+802,Portland Trail Blazers,117,New Orleans Pelicans,138,2020-02-12 01:00:00+00:00
+803,San Antonio Spurs,114,Oklahoma City Thunder,106,2020-02-12 01:00:00+00:00
+804,Boston Celtics,105,Houston Rockets,116,2020-02-12 02:30:00+00:00
+805,Atlanta Hawks,105,Cleveland Cavaliers,127,2020-02-13 00:00:00+00:00
+806,Detroit Pistons,112,Orlando Magic,116,2020-02-13 00:00:00+00:00
+807,Toronto Raptors,91,Brooklyn Nets,101,2020-02-13 00:30:00+00:00
+808,Milwaukee Bucks,111,Indiana Pacers,118,2020-02-13 00:30:00+00:00
+809,Washington Wizards,114,New York Knicks,96,2020-02-13 00:30:00+00:00
+810,Portland Trail Blazers,104,Memphis Grizzlies,111,2020-02-13 01:00:00+00:00
+811,Charlotte Hornets,115,Minnesota Timberwolves,108,2020-02-13 01:00:00+00:00
+812,Sacramento Kings,111,Dallas Mavericks,130,2020-02-13 01:30:00+00:00
+813,Golden State Warriors,106,Phoenix Suns,112,2020-02-13 02:00:00+00:00
+814,Miami Heat,101,Utah Jazz,116,2020-02-13 02:00:00+00:00
+815,Los Angeles Lakers,120,Denver Nuggets,116,2020-02-13 03:00:00+00:00
+816,Los Angeles Clippers,133,Boston Celtics,141,2020-02-14 01:00:00+00:00
+817,Oklahoma City Thunder,123,New Orleans Pelicans,118,2020-02-14 01:00:00+00:00
+818,Milwaukee Bucks,126,Detroit Pistons,106,2020-02-21 00:00:00+00:00
+819,Miami Heat,124,Atlanta Hawks,129,2020-02-21 00:30:00+00:00
+820,Charlotte Hornets,103,Chicago Bulls,93,2020-02-21 01:00:00+00:00
+821,Brooklyn Nets,104,Philadelphia 76Ers,112,2020-02-21 01:00:00+00:00
+822,Memphis Grizzlies,125,Sacramento Kings,129,2020-02-21 03:00:00+00:00
+823,Houston Rockets,135,Golden State Warriors,105,2020-02-21 03:30:00+00:00
+824,Dallas Mavericks,122,Orlando Magic,106,2020-02-22 00:00:00+00:00
+825,Cleveland Cavaliers,113,Washington Wizards,108,2020-02-22 00:00:00+00:00
+826,Indiana Pacers,106,New York Knicks,98,2020-02-22 00:30:00+00:00
+827,Phoenix Suns,101,Toronto Raptors,118,2020-02-22 00:30:00+00:00
+828,Boston Celtics,127,Minnesota Timberwolves,117,2020-02-22 01:00:00+00:00
+829,Denver Nuggets,101,Oklahoma City Thunder,113,2020-02-22 01:00:00+00:00
+830,San Antonio Spurs,113,Utah Jazz,104,2020-02-22 02:00:00+00:00
+831,Memphis Grizzlies,105,Los Angeles Lakers,117,2020-02-22 03:30:00+00:00
+832,New Orleans Pelicans,128,Portland Trail Blazers,115,2020-02-22 03:30:00+00:00
+833,Sacramento Kings,112,Los Angeles Clippers,103,2020-02-22 20:30:00+00:00
+834,Brooklyn Nets,115,Charlotte Hornets,86,2020-02-23 00:00:00+00:00
+835,Dallas Mavericks,107,Atlanta Hawks,111,2020-02-23 00:30:00+00:00
+836,Phoenix Suns,112,Chicago Bulls,104,2020-02-23 01:00:00+00:00
+837,Cleveland Cavaliers,105,Miami Heat,124,2020-02-23 01:00:00+00:00
+838,Philadelphia 76Ers,98,Milwaukee Bucks,119,2020-02-23 01:30:00+00:00
+839,Houston Rockets,120,Utah Jazz,110,2020-02-23 02:00:00+00:00
+840,Boston Celtics,112,Los Angeles Lakers,114,2020-02-23 20:30:00+00:00
+841,Minnesota Timberwolves,116,Denver Nuggets,128,2020-02-23 23:00:00+00:00
+842,Indiana Pacers,81,Toronto Raptors,127,2020-02-23 23:00:00+00:00
+843,Washington Wizards,117,Chicago Bulls,126,2020-02-24 00:00:00+00:00
+844,San Antonio Spurs,103,Oklahoma City Thunder,131,2020-02-24 00:00:00+00:00
+845,New Orleans Pelicans,115,Golden State Warriors,101,2020-02-24 01:30:00+00:00
+846,Detroit Pistons,104,Portland Trail Blazers,107,2020-02-24 02:00:00+00:00
+847,Miami Heat,119,Cleveland Cavaliers,125,2020-02-25 00:00:00+00:00
+848,Atlanta Hawks,112,Philadelphia 76Ers,129,2020-02-25 00:00:00+00:00
+849,Milwaukee Bucks,137,Washington Wizards,134,2020-02-25 00:00:00+00:00
+850,Orlando Magic,115,Brooklyn Nets,113,2020-02-25 00:30:00+00:00
+851,New York Knicks,112,Houston Rockets,123,2020-02-25 01:00:00+00:00
+852,Minnesota Timberwolves,123,Dallas Mavericks,139,2020-02-25 01:30:00+00:00
+853,Phoenix Suns,131,Utah Jazz,111,2020-02-25 02:00:00+00:00
+854,Memphis Grizzlies,97,Los Angeles Clippers,124,2020-02-25 03:30:00+00:00
+855,Charlotte Hornets,80,Indiana Pacers,119,2020-02-26 00:00:00+00:00
+856,Milwaukee Bucks,108,Toronto Raptors,97,2020-02-26 00:30:00+00:00
+857,Oklahoma City Thunder,124,Chicago Bulls,122,2020-02-26 01:00:00+00:00
+858,Detroit Pistons,98,Denver Nuggets,115,2020-02-26 02:00:00+00:00
+859,New Orleans Pelicans,109,Los Angeles Lakers,118,2020-02-26 03:00:00+00:00
+860,Boston Celtics,118,Portland Trail Blazers,106,2020-02-26 03:00:00+00:00
+861,Sacramento Kings,112,Golden State Warriors,94,2020-02-26 03:30:00+00:00
+862,New York Knicks,101,Charlotte Hornets,107,2020-02-27 00:00:00+00:00
+863,Philadelphia 76Ers,94,Cleveland Cavaliers,108,2020-02-27 00:00:00+00:00
+864,Brooklyn Nets,106,Washington Wizards,110,2020-02-27 00:00:00+00:00
+865,Orlando Magic,130,Atlanta Hawks,120,2020-02-27 00:30:00+00:00
+866,Minnesota Timberwolves,129,Miami Heat,126,2020-02-27 00:30:00+00:00
+867,Memphis Grizzlies,112,Houston Rockets,140,2020-02-27 01:00:00+00:00
+868,Dallas Mavericks,109,San Antonio Spurs,103,2020-02-27 01:30:00+00:00
+869,Los Angeles Clippers,102,Phoenix Suns,92,2020-02-27 02:00:00+00:00
+870,Boston Celtics,114,Utah Jazz,103,2020-02-27 03:30:00+00:00
+871,New York Knicks,106,Philadelphia 76Ers,115,2020-02-28 00:00:00+00:00
+872,Portland Trail Blazers,100,Indiana Pacers,106,2020-02-28 01:00:00+00:00
+873,Sacramento Kings,108,Oklahoma City Thunder,112,2020-02-28 01:00:00+00:00
+874,Los Angeles Lakers,116,Golden State Warriors,86,2020-02-28 03:30:00+00:00
+875,Minnesota Timberwolves,125,Orlando Magic,136,2020-02-29 00:00:00+00:00
+876,Brooklyn Nets,118,Atlanta Hawks,141,2020-02-29 00:30:00+00:00
+877,Charlotte Hornets,99,Toronto Raptors,96,2020-02-29 00:30:00+00:00
+878,Sacramento Kings,104,Memphis Grizzlies,101,2020-02-29 01:00:00+00:00
+879,Dallas Mavericks,118,Miami Heat,126,2020-02-29 01:00:00+00:00
+880,Oklahoma City Thunder,86,Milwaukee Bucks,133,2020-02-29 01:00:00+00:00
+881,Cleveland Cavaliers,104,New Orleans Pelicans,116,2020-02-29 01:00:00+00:00
+882,Detroit Pistons,113,Phoenix Suns,111,2020-02-29 02:00:00+00:00
+883,Washington Wizards,119,Utah Jazz,129,2020-02-29 02:00:00+00:00
+884,Denver Nuggets,103,Los Angeles Clippers,132,2020-02-29 03:30:00+00:00
+885,Chicago Bulls,115,New York Knicks,125,2020-02-29 22:00:00+00:00
+886,Portland Trail Blazers,117,Atlanta Hawks,129,2020-03-01 00:30:00+00:00
+887,Brooklyn Nets,113,Miami Heat,116,2020-03-01 00:30:00+00:00
+888,Indiana Pacers,113,Cleveland Cavaliers,104,2020-03-01 01:00:00+00:00
+889,Los Angeles Lakers,88,Memphis Grizzlies,105,2020-03-01 01:00:00+00:00
+890,Houston Rockets,111,Boston Celtics,110,2020-03-01 01:30:00+00:00
+891,Orlando Magic,113,San Antonio Spurs,114,2020-03-01 01:30:00+00:00
+892,Golden State Warriors,115,Phoenix Suns,99,2020-03-01 02:00:00+00:00
+893,Milwaukee Bucks,93,Charlotte Hornets,85,2020-03-01 18:00:00+00:00
+894,Philadelphia 76Ers,130,Los Angeles Clippers,136,2020-03-01 20:30:00+00:00
+895,Dallas Mavericks,111,Minnesota Timberwolves,91,2020-03-01 20:30:00+00:00
+896,Toronto Raptors,118,Denver Nuggets,133,2020-03-01 23:00:00+00:00
+897,Detroit Pistons,100,Sacramento Kings,106,2020-03-01 23:00:00+00:00
+898,Los Angeles Lakers,122,New Orleans Pelicans,114,2020-03-02 01:00:00+00:00
+899,Washington Wizards,124,Golden State Warriors,110,2020-03-02 01:30:00+00:00
+900,Utah Jazz,126,Cleveland Cavaliers,113,2020-03-03 00:00:00+00:00
+901,Houston Rockets,123,New York Knicks,125,2020-03-03 00:00:00+00:00
+902,Portland Trail Blazers,130,Orlando Magic,107,2020-03-03 00:00:00+00:00
+903,Memphis Grizzlies,127,Atlanta Hawks,88,2020-03-03 00:30:00+00:00
+904,Milwaukee Bucks,89,Miami Heat,105,2020-03-03 00:30:00+00:00
+905,Dallas Mavericks,107,Chicago Bulls,109,2020-03-03 01:00:00+00:00
+906,Indiana Pacers,116,San Antonio Spurs,111,2020-03-03 01:30:00+00:00
+907,San Antonio Spurs,104,Charlotte Hornets,103,2020-03-04 00:00:00+00:00
+908,Brooklyn Nets,129,Boston Celtics,120,2020-03-04 00:30:00+00:00
+909,Minnesota Timberwolves,139,New Orleans Pelicans,134,2020-03-04 01:00:00+00:00
+910,Los Angeles Clippers,109,Oklahoma City Thunder,94,2020-03-04 01:00:00+00:00
+911,Golden State Warriors,116,Denver Nuggets,100,2020-03-04 02:00:00+00:00
+912,Toronto Raptors,123,Phoenix Suns,114,2020-03-04 02:00:00+00:00
+913,Philadelphia 76Ers,107,Los Angeles Lakers,120,2020-03-04 03:00:00+00:00
+914,Washington Wizards,126,Sacramento Kings,133,2020-03-04 03:00:00+00:00
+915,Boston Celtics,112,Cleveland Cavaliers,106,2020-03-05 00:00:00+00:00
+916,Oklahoma City Thunder,114,Detroit Pistons,107,2020-03-05 00:00:00+00:00
+917,Indiana Pacers,100,Milwaukee Bucks,119,2020-03-05 00:00:00+00:00
+918,Memphis Grizzlies,118,Brooklyn Nets,79,2020-03-05 00:30:00+00:00
+919,Utah Jazz,112,New York Knicks,104,2020-03-05 00:30:00+00:00
+920,Orlando Magic,113,Miami Heat,116,2020-03-05 00:30:00+00:00
+921,Chicago Bulls,108,Minnesota Timberwolves,115,2020-03-05 01:00:00+00:00
+922,New Orleans Pelicans,123,Dallas Mavericks,127,2020-03-05 02:30:00+00:00
+923,Washington Wizards,104,Portland Trail Blazers,125,2020-03-05 03:00:00+00:00
+924,Denver Nuggets,114,Charlotte Hornets,112,2020-03-06 00:00:00+00:00
+925,Los Angeles Clippers,120,Houston Rockets,105,2020-03-06 01:00:00+00:00
+926,Philadelphia 76Ers,125,Sacramento Kings,108,2020-03-06 03:00:00+00:00
+927,Toronto Raptors,121,Golden State Warriors,113,2020-03-06 03:30:00+00:00
+928,Atlanta Hawks,112,Washington Wizards,118,2020-03-07 00:00:00+00:00
+929,San Antonio Spurs,120,Brooklyn Nets,139,2020-03-07 00:30:00+00:00
+930,Oklahoma City Thunder,126,New York Knicks,103,2020-03-07 00:30:00+00:00
+931,Indiana Pacers,108,Chicago Bulls,102,2020-03-07 01:00:00+00:00
+932,Orlando Magic,132,Minnesota Timberwolves,118,2020-03-07 01:00:00+00:00
+933,Miami Heat,104,New Orleans Pelicans,110,2020-03-07 01:00:00+00:00
+934,Utah Jazz,99,Boston Celtics,94,2020-03-07 01:00:00+00:00
+935,Memphis Grizzlies,96,Dallas Mavericks,121,2020-03-07 01:30:00+00:00
+936,Portland Trail Blazers,117,Phoenix Suns,127,2020-03-07 02:00:00+00:00
+937,Milwaukee Bucks,103,Los Angeles Lakers,113,2020-03-07 03:30:00+00:00
+938,Houston Rockets,99,Charlotte Hornets,108,2020-03-07 22:00:00+00:00
+939,Utah Jazz,111,Detroit Pistons,105,2020-03-08 00:00:00+00:00
+940,Denver Nuggets,102,Cleveland Cavaliers,104,2020-03-08 00:30:00+00:00
+941,Atlanta Hawks,101,Memphis Grizzlies,118,2020-03-08 01:00:00+00:00
+942,Philadelphia 76Ers,114,Golden State Warriors,118,2020-03-08 01:30:00+00:00
+943,Sacramento Kings,123,Portland Trail Blazers,111,2020-03-08 03:00:00+00:00
+944,Chicago Bulls,107,Brooklyn Nets,110,2020-03-08 19:00:00+00:00
+945,New Orleans Pelicans,120,Minnesota Timberwolves,107,2020-03-08 19:30:00+00:00
+946,Los Angeles Lakers,112,Los Angeles Clippers,103,2020-03-08 19:30:00+00:00
+947,Oklahoma City Thunder,105,Boston Celtics,104,2020-03-08 22:00:00+00:00
+948,Milwaukee Bucks,131,Phoenix Suns,140,2020-03-08 22:00:00+00:00
+949,Miami Heat,100,Washington Wizards,89,2020-03-08 23:00:00+00:00
+950,Indiana Pacers,112,Dallas Mavericks,109,2020-03-08 23:00:00+00:00
+951,Orlando Magic,126,Houston Rockets,106,2020-03-08 23:00:00+00:00
+952,Detroit Pistons,84,New York Knicks,96,2020-03-08 23:30:00+00:00
+953,San Antonio Spurs,129,Cleveland Cavaliers,132,2020-03-08 23:30:00+00:00
+954,Toronto Raptors,118,Sacramento Kings,113,2020-03-09 01:00:00+00:00
+955,Charlotte Hornets,138,Atlanta Hawks,143,2020-03-09 23:30:00+00:00
+956,Milwaukee Bucks,95,Denver Nuggets,109,2020-03-10 01:00:00+00:00
+957,Toronto Raptors,101,Utah Jazz,92,2020-03-10 01:00:00+00:00
+958,New York Knicks,115,Washington Wizards,122,2020-03-10 23:00:00+00:00
+959,Boston Celtics,114,Indiana Pacers,111,2020-03-10 23:00:00+00:00
+960,Minnesota Timberwolves,111,Houston Rockets,117,2020-03-11 00:00:00+00:00
+961,Dallas Mavericks,109,San Antonio Spurs,119,2020-03-11 00:00:00+00:00
+962,Orlando Magic,120,Memphis Grizzlies,115,2020-03-11 00:00:00+00:00
+963,Cleveland Cavaliers,103,Chicago Bulls,108,2020-03-11 00:00:00+00:00
+964,Phoenix Suns,105,Portland Trail Blazers,121,2020-03-11 02:00:00+00:00
+965,Brooklyn Nets,104,Los Angeles Lakers,102,2020-03-11 02:30:00+00:00
+966,Los Angeles Clippers,131,Golden State Warriors,107,2020-03-11 02:30:00+00:00
+967,Detroit Pistons,106,Philadelphia 76Ers,124,2020-03-11 23:00:00+00:00
+968,New York Knicks,136,Atlanta Hawks,131,2020-03-11 23:30:00+00:00
+969,Charlotte Hornets,109,Miami Heat,98,2020-03-11 23:30:00+00:00
+970,Denver Nuggets,97,Dallas Mavericks,113,2020-03-12 00:00:00+00:00
