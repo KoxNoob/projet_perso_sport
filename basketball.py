@@ -226,282 +226,142 @@ if vue == 'Classement':
                 ('Générales', 'Victoires/Défaites domicile/extérieur','Moyennes de points Pour/Contre détaillées' ))
   
 #Classement Général
-<<<<<<< HEAD
   if option == 'Général':
-    if stats == ['Générales']:
-      st.write(df_stat_4)
-    if stats == ['Victoires/Défaites domicile/extérieur']:
-      st.write(df_stat_1)
-    if stats == ['Moyennes de points Pour/Contre détaillées']:
-      st.write(df_stat_7)
-    if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-      st.write(df_final.iloc[:,:11])
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-      df_stat_10 = pd.merge(left = df_stat_4, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
-      df_stat_10.index = df_stat_10.index + 1
-      st.write(df_stat_10)
-    if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      df_stat_13 = pd.merge(left = df_stat_1, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
-      df_stat_13.index = df_stat_13.index + 1
-      st.write(df_stat_13)
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      st.write(df_final)
-    
-    # Mapping
-    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/NBA-logo.jpg?raw=true"></p>',unsafe_allow_html=True) 
-    states = alt.topo_feature(data.us_10m.url, feature='states')
+      if stats == ['Générales']:
+        st.write(df_stat_4)
+      if stats == ['Victoires/Défaites domicile/extérieur']:
+        st.write(df_stat_1)
+      if stats == ['Moyennes de points Pour/Contre détaillées']:
+        st.write(df_stat_7)
+      if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
+        st.write(df_final.iloc[:,:11])
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
+        df_stat_10 = pd.merge(left = df_stat_4, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
+        df_stat_10.index = df_stat_10.index + 1
+        st.write(df_stat_10)
+      if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        df_stat_13 = pd.merge(left = df_stat_1, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
+        df_stat_13.index = df_stat_13.index + 1
+        st.write(df_stat_13)
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        st.write(df_final)
 
-    # US states background
-    background = alt.Chart(states).mark_geoshape(
-        fill='lightgray',
-        stroke='white'
-    ).properties(
-        width=700,
-        height=400
-    ).project('albersUsa')
+      # Mapping
+      st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/NBA-logo.jpg?raw=true"></p>',unsafe_allow_html=True)
+      states = alt.topo_feature(data.us_10m.url, feature='states')
 
-    # Teams positions
-    points_w = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
-        longitude='longitude',
-        latitude='latitude',
-        color=alt.value('red'),
-        tooltip=['Team']
-        
-    )
+      # US states background
+      background = alt.Chart(states).mark_geoshape(
+          fill='lightgray',
+          stroke='white'
+      ).properties(
+          width=700,
+          height=400
+      ).project('albersUsa')
 
-    points_e = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
-        longitude='longitude',
-        latitude='latitude',
-        color=alt.value('blue'),
-        tooltip=['Team']
-        
-    )
-    background + points_w + points_e
-    
+      # airport positions on background
+      points_w = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
+          longitude='longitude',
+          latitude='latitude',
+          color=alt.value('#B82E2E'),
+          tooltip=['Team']
+
+      )
+
+      points_e = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
+          longitude='longitude',
+          latitude='latitude',
+          color=alt.value('#3366CC'),
+          tooltip=['Team']
+
+      )
+      background + points_w + points_e
+  
 # Classement Conférence Ouest
   if option == 'Conférence Ouest':
-    if stats == ['Générales']:
-      st.write(df_stat_5)
-    if stats == ['Victoires/Défaites domicile/extérieur']:
-      st.write(df_stat_2)
-    if stats == ['Moyennes de points Pour/Contre détaillées']:
-      st.write(df_stat_8)
-    if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-      st.write(df_west.iloc[:,:11])
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-      df_stat_11 = pd.merge(left = df_stat_5, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
-      df_stat_11.index = df_stat_11.index + 1
-      st.write(df_stat_11)
-    if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      df_stat_14 = pd.merge(left = df_stat_2, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
-      df_stat_14.index = df_stat_14.index + 1
-      st.write(df_stat_14)
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      st.write(df_west)
-    
-    # Mapping
-    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Ouest_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True) 
-    
-    states = alt.topo_feature(data.us_10m.url, feature='states')
-    # US states background
-    background = alt.Chart(states).mark_geoshape(
-        fill='lightgray',
-        stroke='white'
-    ).properties(
-        width=700,
-        height=400
-    ).project('albersUsa')
+      if stats == ['Générales']:
+        st.write(df_stat_5)
+      if stats == ['Victoires/Défaites domicile/extérieur']:
+        st.write(df_stat_2)
+      if stats == ['Moyennes de points Pour/Contre détaillées']:
+        st.write(df_stat_8)
+      if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
+        st.write(df_west.iloc[:,:11])
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
+        df_stat_11 = pd.merge(left = df_stat_5, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
+        df_stat_11.index = df_stat_11.index + 1
+        st.write(df_stat_11)
+      if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        df_stat_14 = pd.merge(left = df_stat_2, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
+        df_stat_14.index = df_stat_14.index + 1
+        st.write(df_stat_14)
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        st.write(df_west)
 
-    # Teams positions
-    points = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
-        longitude='longitude',
-        latitude='latitude',
-        color=alt.value('red'),
-        tooltip=['Team']
-        
-    )
-    background + points
+      # Mapping
+      st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Ouest_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
+
+      states = alt.topo_feature(data.us_10m.url, feature='states')
+      # US states background
+      background = alt.Chart(states).mark_geoshape(
+          fill='lightgray',
+          stroke='white'
+      ).properties(
+          width=700,
+          height=400
+      ).project('albersUsa')
+
+      # airport positions on background
+      points = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
+          longitude='longitude',
+          latitude='latitude',
+          color=alt.value('#B82E2E'),
+          tooltip=['Team']
+
+      )
+      background + points
 # Classement Conférence Est
   if option == 'Conférence Est':
-    if stats == ['Générales']:
-      st.dataframe(df_stat_6)
-    if stats == ['Victoires/Défaites domicile/extérieur']:
-      st.dataframe(df_stat_3)
-    if stats == ['Moyennes de points Pour/Contre détaillées']:
-      st.dataframe(df_stat_9)
-    if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-      st.dataframe(df_east.iloc[:,:11])
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-      df_stat_12 = pd.merge(left = df_stat_6, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
-      df_stat_12.index = df_stat_12.index + 1
-      st.dataframe(df_stat_12)
-    if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      df_stat_15 = pd.merge(left = df_stat_3, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
-      df_stat_15.index = df_stat_15.index + 1
-      st.dataframe(df_stat_15)
-    if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-      st.dataframe(df_east)
-    
-    # Mapping
-    st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Est_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
-    states = alt.topo_feature(data.us_10m.url, feature='states')
+      if stats == ['Générales']:
+        st.dataframe(df_stat_6)
+      if stats == ['Victoires/Défaites domicile/extérieur']:
+        st.dataframe(df_stat_3)
+      if stats == ['Moyennes de points Pour/Contre détaillées']:
+        st.dataframe(df_stat_9)
+      if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
+        st.dataframe(df_east.iloc[:,:11])
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
+        df_stat_12 = pd.merge(left = df_stat_6, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
+        df_stat_12.index = df_stat_12.index + 1
+        st.dataframe(df_stat_12)
+      if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        df_stat_15 = pd.merge(left = df_stat_3, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
+        df_stat_15.index = df_stat_15.index + 1
+        st.dataframe(df_stat_15)
+      if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
+        st.dataframe(df_east)
 
-    # US states background
-    background = alt.Chart(states).mark_geoshape(
-        fill='lightgray',
-        stroke='white'
-    ).properties(
-        width=700,
-        height=400
-    ).project('albersUsa')
+      # Mapping
+      st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Est_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
+      states = alt.topo_feature(data.us_10m.url, feature='states')
 
-    # Teams positions
-    points = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
-        longitude='longitude',
-        latitude='latitude',
-        color=alt.value('blue'),
-        tooltip=['Team']
-    )
-    background + points
+      # US states background
+      background = alt.Chart(states).mark_geoshape(
+          fill='lightgray',
+          stroke='white'
+      ).properties(
+          width=700,
+          height=400
+      ).project('albersUsa')
 
-    
-=======
-    if option == 'Général':
-        if stats == ['Générales']:
-          st.write(df_stat_4)
-        if stats == ['Victoires/Défaites domicile/extérieur']:
-          st.write(df_stat_1)
-        if stats == ['Moyennes de points Pour/Contre détaillées']:
-          st.write(df_stat_7)
-        if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-          st.write(df_final.iloc[:,:11])
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-          df_stat_10 = pd.merge(left = df_stat_4, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
-          df_stat_10.index = df_stat_10.index + 1
-          st.write(df_stat_10)
-        if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          df_stat_13 = pd.merge(left = df_stat_1, right = df_stat_7, on=['Team', 'Conf'], how = 'inner')
-          df_stat_13.index = df_stat_13.index + 1
-          st.write(df_stat_13)
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          st.write(df_final)
-
-        # Mapping
-        st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/NBA-logo.jpg?raw=true"></p>',unsafe_allow_html=True)
-        states = alt.topo_feature(data.us_10m.url, feature='states')
-
-        # US states background
-        background = alt.Chart(states).mark_geoshape(
-            fill='lightgray',
-            stroke='white'
-        ).properties(
-            width=700,
-            height=400
-        ).project('albersUsa')
-
-        # airport positions on background
-        points_w = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
-            longitude='longitude',
-            latitude='latitude',
-            color=alt.value('#B82E2E'),
-            tooltip=['Team']
-
-        )
-
-        points_e = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
-            longitude='longitude',
-            latitude='latitude',
-            color=alt.value('#3366CC'),
-            tooltip=['Team']
-
-        )
-        background + points_w + points_e
-    
-# Classement Conférence Ouest
-    if option == 'Conférence Ouest':
-        if stats == ['Générales']:
-          st.write(df_stat_5)
-        if stats == ['Victoires/Défaites domicile/extérieur']:
-          st.write(df_stat_2)
-        if stats == ['Moyennes de points Pour/Contre détaillées']:
-          st.write(df_stat_8)
-        if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-          st.write(df_west.iloc[:,:11])
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-          df_stat_11 = pd.merge(left = df_stat_5, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
-          df_stat_11.index = df_stat_11.index + 1
-          st.write(df_stat_11)
-        if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          df_stat_14 = pd.merge(left = df_stat_2, right = df_stat_8, on=['Team', 'Conf'], how = 'inner')
-          df_stat_14.index = df_stat_14.index + 1
-          st.write(df_stat_14)
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          st.write(df_west)
-
-        # Mapping
-        st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Ouest_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
-
-        states = alt.topo_feature(data.us_10m.url, feature='states')
-        # US states background
-        background = alt.Chart(states).mark_geoshape(
-            fill='lightgray',
-            stroke='white'
-        ).properties(
-            width=700,
-            height=400
-        ).project('albersUsa')
-
-        # airport positions on background
-        points = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
-            longitude='longitude',
-            latitude='latitude',
-            color=alt.value('#B82E2E'),
-            tooltip=['Team']
-
-        )
-        background + points
-# Classement Conférence Est
-    if option == 'Conférence Est':
-        if stats == ['Générales']:
-          st.dataframe(df_stat_6)
-        if stats == ['Victoires/Défaites domicile/extérieur']:
-          st.dataframe(df_stat_3)
-        if stats == ['Moyennes de points Pour/Contre détaillées']:
-          st.dataframe(df_stat_9)
-        if sorted(stats) == ['Générales', 'Victoires/Défaites domicile/extérieur']:
-          st.dataframe(df_east.iloc[:,:11])
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées']:
-          df_stat_12 = pd.merge(left = df_stat_6, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
-          df_stat_12.index = df_stat_12.index + 1
-          st.dataframe(df_stat_12)
-        if sorted(stats) == ['Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          df_stat_15 = pd.merge(left = df_stat_3, right = df_stat_9, on=['Team', 'Conf'], how = 'inner')
-          df_stat_15.index = df_stat_15.index + 1
-          st.dataframe(df_stat_15)
-        if sorted(stats) == ['Générales','Moyennes de points Pour/Contre détaillées','Victoires/Défaites domicile/extérieur']:
-          st.dataframe(df_east)
-
-        # Mapping
-        st.markdown('<p align="center"><img width="200" height="100" src="https://github.com/KoxNoob/Stats-Nba/blob/master/logo/225px-Conf%C3%A9rence_Est_de_la_NBA.png?raw=true"></p>',unsafe_allow_html=True)
-        states = alt.topo_feature(data.us_10m.url, feature='states')
-
-        # US states background
-        background = alt.Chart(states).mark_geoshape(
-            fill='lightgray',
-            stroke='white'
-        ).properties(
-            width=700,
-            height=400
-        ).project('albersUsa')
-
-        # airport positions on background
-        points = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
-            longitude='longitude',
-            latitude='latitude',
-            color=alt.value('#3366CC'),
-            tooltip=['Team']
-        )
-        background + points
+      # airport positions on background
+      points = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
+          longitude='longitude',
+          latitude='latitude',
+          color=alt.value('#3366CC'),
+          tooltip=['Team']
+      )
+      background + points
 
 if vue == 'Confrontation':
     st.markdown('### Dans cette section, vous allez pouvoir choisir 2 équipes pour avoir un petit résumé de leurs statistiques \
@@ -651,4 +511,3 @@ if vue == 'Confrontation':
     if localisation :
         mapping(teamA, teamB)
     versus(teamA, teamB)
->>>>>>> bfa870f9bbd333749c777c8cb7f2118e42c82b23
