@@ -242,7 +242,7 @@ if vue == 'Classement':
         height=400
     ).project('albersUsa')
 
-    # airport positions on background
+    # Teams positions
     points_w = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
         longitude='longitude',
         latitude='latitude',
@@ -294,7 +294,7 @@ if vue == 'Classement':
         height=400
     ).project('albersUsa')
 
-    # airport positions on background
+    # Teams positions
     points = alt.Chart(df_gps[df_gps['Conf'] == 'West']).mark_circle(size=100).encode(
         longitude='longitude',
         latitude='latitude',
@@ -337,7 +337,7 @@ if vue == 'Classement':
         height=400
     ).project('albersUsa')
 
-    # airport positions on background
+    # Teams positions
     points = alt.Chart(df_gps[df_gps['Conf'] == 'East']).mark_circle(size=100).encode(
         longitude='longitude',
         latitude='latitude',
