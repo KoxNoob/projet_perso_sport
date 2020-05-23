@@ -15,4 +15,4 @@ Si vous avez des suggestions, des remarques, n'hésitez pas.
 
 ## Version
 
-Version actuelle : 0.1.2
+Version actuelle : 0.2.1
