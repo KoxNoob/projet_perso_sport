@@ -5,6 +5,10 @@ import altair as alt
 from vega_datasets import data
 import plotly.express as px
 import plotly.graph_objects as go
+from sklearn import preprocessing
+from sklearn.linear_model import LogisticRegression
+from sklearn.exceptions import ConvergenceWarning
+
 
 pd.options.mode.chained_assignment = None 
 read_and_cache_csv = st.cache(pd.read_csv)
@@ -20,13 +24,13 @@ def nb_victory(df,team):
 
 # Nombre de défaites total 
 def nb_defeat(df,team):
-  return nb_ext_defeat(df,team) + nb_dom_defeat(df,team)
+  return nb_ext_defeat(df, team) + nb_dom_defeat(df,team)
 
 # Nombre de victoires à domicile
-def nb_dom_victory(df,team):
-  mask1 = df["home_team"]== team
-  mask2 = df["home_team_score"]>df["away_team_score"]
-  mask = mask1&mask2
+def nb_dom_victory(df, team):
+  mask1 = df["home_team"] == team
+  mask2 = df["home_team_score"] > df["away_team_score"]
+  mask = mask1 & mask2
   return len(df[mask])
 
 # Nombre de victoires à l'extérieur
@@ -208,7 +212,7 @@ st.sidebar.image(path, use_column_width=True)
 # Sidebar
 vue = st.sidebar.radio(
      "Menu",
-     ('Accueil', 'Classement', 'Confrontation'), 0)
+     ('Accueil', 'Classement', 'Confrontation', 'Prédictions'), 0)
 
 # Page d'accueil
 if vue == 'Accueil':
@@ -505,9 +509,167 @@ if vue == 'Confrontation':
         resultat_confrontation(team1, team2)
         display_historique(historique_confrontation(team1, team2))
 
+    if teamA != teamB :
+        display_stat(teamA)
+        display_stat(teamB)
+        if localisation :
+            mapping(teamA, teamB)
+        versus(teamA, teamB)
+    else:
+        st.error('Tu as mis 2 fois la même équipe, l\'affichage n\'est pas possible.')
 
-    display_stat(teamA)
-    display_stat(teamB)
-    if localisation :
-        mapping(teamA, teamB)
-    versus(teamA, teamB)
+if vue == 'Prédictions':
+    st.markdown('### Dans cette section, vous allez pouvoir choisir 2 équipes pour prédire qui sera vainqueur et \
+    quelle sera sa marge de points.')
+
+
+    confTeamA = st.sidebar.selectbox("Choisissez la conférence de l'équipe à domicile", ('Conférence Ouest', 'Conférence Est'), 0)
+    if confTeamA == 'Conférence Ouest':
+        teamA = st.sidebar.selectbox("Choisissez l\'équipe à domicile", df_final[df_final['Conf'] == "West"]['Team'].unique())
+    else:
+        teamA = st.sidebar.selectbox("Choisissez l\'équipe à domicile", df_final[df_final['Conf'] == "East"]['Team'].unique())
+
+    confTeamB = st.sidebar.selectbox("Choisissez la conférence de l'équipe à l'extérieur", ('Conférence Ouest', 'Conférence Est'), 1)
+    if confTeamB == 'Conférence Ouest':
+        teamB = st.sidebar.selectbox("Choisissez l\'équipe à l'extérieur", df_final[df_final['Conf'] == "West"]['Team'].unique())
+    else:
+        teamB = st.sidebar.selectbox("Choisissez l\'équipe à l'extérieur", df_final[df_final['Conf'] == "East"]['Team'].unique())
+
+    le = preprocessing.LabelEncoder()
+
+    # Préparation du dataframe pour les prédictions
+    @st.cache
+    def prepa_df(df):
+        df_cut = df.iloc[0:698, :]
+        df_cut = df.drop('start_time', axis=1)
+        df_cut.head(2)
+
+        df_cut['%V_home_team'] = 0
+        df_cut['Moy_Pts_P_Home_Team'] = 0
+        df_cut['Moy_Pts_C_Home_Team'] = 0
+        df_cut['%V_away_team'] = 0
+        df_cut['Moy_Pts_P_Away_Team'] = 0
+        df_cut['Moy_Pts_C_Away_Team'] = 0
+
+        for team in df_cut['home_team']:
+            mask1 = df_cut['home_team'] == team
+            df_cut['%V_home_team'][mask1] = pourcent(df_cut, team)
+            df_cut['Moy_Pts_P_Home_Team'][mask1] = moy_pts_dom_p(df_cut, team)
+            df_cut['Moy_Pts_C_Home_Team'][mask1] = moy_pts_dom_c(df_cut, team)
+
+        for team in df_cut['away_team']:
+            mask1 = df_cut['away_team'] == team
+            df_cut['%V_away_team'][mask1] = pourcent(df_cut, team)
+            df_cut['Moy_Pts_P_Away_Team'][mask1] = moy_pts_ext_p(df_cut, team)
+            df_cut['Moy_Pts_C_Away_Team'][mask1] = moy_pts_ext_c(df_cut, team)
+
+        df_cut['Results'] = 0
+        for i in range(len(df_cut)):
+            if (df_cut['home_team_score'][i] - df_cut['away_team_score'][i]) >= 10:
+                df_cut['Results'][i] = 'Home_by_+10pts'
+            elif ((df_cut['home_team_score'][i] - df_cut['away_team_score'][i]) > 0) and (
+                    (df_cut['home_team_score'][i] - df_cut['away_team_score'][i]) < 10):
+                df_cut['Results'][i] = 'Home_by_-10pts'
+            elif (df_cut['away_team_score'][i] - df_cut['home_team_score'][i]) >= 10:
+                df_cut['Results'][i] = 'Away_by_+10pts'
+            elif ((df_cut['away_team_score'][i] - df_cut['home_team_score'][i]) > 0) and (
+                    (df_cut['away_team_score'][i] - df_cut['home_team_score'][i]) < 10):
+                df_cut['Results'][i] = 'Away_by_-10pts'
+
+        df_cut['Home_win'] = 0
+        for i in range(len(df_cut)):
+            df_cut['Home_win'][i] = (df_cut['home_team_score'][i] > df_cut['away_team_score'][i]).astype(int)
+
+        return df_cut
+
+    def encodage(df):
+
+        df_cut['away_team'] = le.fit_transform(df_cut['away_team'])
+        df_cut['home_team'] = le.fit_transform(df_cut['home_team'])
+        return df
+
+    def prepa_input_away(team):
+        prepa_away = df_cut[df_cut['away_team'] == team].drop(['away_team_score', 'home_team_score',
+                                                                'home_team', '%V_home_team', 'Moy_Pts_P_Home_Team',
+                                                                'Moy_Pts_C_Home_Team', 'Results', 'Home_win'],
+                                                               axis=1).iloc[0, :]
+
+        prepa_away = pd.DataFrame(prepa_away).T
+        prepa_away['away_team'] = prepa_away['away_team'].astype(int)
+        prepa_away = prepa_away.reset_index(drop=True)
+        return prepa_away
+
+    def prepa_input_home(team):
+        prepa_home = df_cut[df_cut['home_team'] == team].drop(['away_team_score', 'home_team_score',
+                                                                'away_team', '%V_away_team', 'Moy_Pts_P_Away_Team',
+                                                                'Moy_Pts_C_Away_Team', 'Results', 'Home_win'],
+                                                               axis=1).iloc[0, :]
+
+        prepa_home = pd.DataFrame(prepa_home).T
+        prepa_home['home_team'] = prepa_home['home_team'].astype(int)
+        prepa_home = prepa_home.reset_index(drop=True)
+        return prepa_home
+
+    def encode_team(team1, team2):
+        team1 = le.transform([team1])
+        team2 = le.transform([team2])
+        return team1, team2
+
+
+    df_cut = prepa_df(df).drop('Unnamed: 0', axis =1)
+    df_cut = encodage(df_cut)
+
+    # On entraine les algorithmes de ML
+    X = df_cut.drop(['Results', 'away_team_score', 'home_team_score', 'Home_win'], axis=1)
+    y1 = df_cut['Results']
+    y2 = df_cut['Home_win']
+    logReg1 = LogisticRegression()
+    logReg1.fit(X, y1)
+    logReg2 = LogisticRegression()
+    logReg2.fit(X, y2)
+
+    def prepa_input(teamA, teamB):
+        teamA, teamB = encode_team(teamA, teamB)
+        teamA = teamA[0]
+        teamB = teamB[0]
+        prepa_away = prepa_input_away(teamB)
+        prepa_home = prepa_input_home(teamA)
+        input_predict = pd.merge(prepa_away, prepa_home, left_index=True, right_index=True)
+        input_predict = input_predict[
+            ['away_team', 'home_team', '%V_home_team', 'Moy_Pts_P_Home_Team', 'Moy_Pts_C_Home_Team',
+             '%V_away_team', 'Moy_Pts_P_Away_Team', 'Moy_Pts_C_Away_Team']]
+        return input_predict
+
+    def prediction(teamA, teamB):
+        input_predict = prepa_input(teamA, teamB)
+        columns_name = df_cut.columns
+        columns_name = columns_name.drop(['Results', 'away_team_score', 'home_team_score', 'Home_win'])
+        X_predict = input_predict[columns_name]
+        X_predict2 = input_predict[columns_name]
+        input_predict['predict_Results'] = logReg1.predict(X_predict)
+        input_predict['predict_Home_Win'] = logReg2.predict(X_predict2)
+        return input_predict
+
+    prediction = prediction(teamA, teamB)
+    if teamA != teamB:
+        if prediction['predict_Home_Win'].all() == 1:
+            winner = teamA
+        else:
+            winner = teamB
+
+        if prediction['predict_Results'].all() == 'Away_by_-10pts':
+            marge = " - de 10 points"
+        elif prediction['predict_Results'].all() == 'Away_by_+10pts':
+            marge = " + de 10 points"
+        elif prediction['predict_Results'].all() == 'Home_by_-10pts':
+            marge = " - de 10 points"
+        elif prediction['predict_Results'].all() == 'Home_by_+10pts':
+            marge = " + de 10 points"
+
+        st.markdown('Pour la confrontation ' + str(teamA) + ' - ' + str(teamB) + ', voici les prédictions :')
+
+        st.markdown("<h2 style='text-align: center; color: gray; size = 0'>" + "Vainqueur", unsafe_allow_html=True)
+        st.markdown('<p align="center"><img width="150" height="150" src=' + df_gps[df_gps['Team'] == winner]['Logo'].any() + "</p>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: gray; size = 0'>" + "Marge : " + str(marge), unsafe_allow_html=True)
+    else:
+        st.error('Tu as mis 2 fois la même équipe, la prédiction n\'est pas possible.')
