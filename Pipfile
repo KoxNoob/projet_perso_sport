@@ -11,6 +11,7 @@ pandas = "*"
 altair = "*"
 vega-datasets = "*"
 plotly = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.7"
