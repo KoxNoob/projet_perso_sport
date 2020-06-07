@@ -15,4 +15,6 @@ Si vous avez des suggestions, des remarques, n'hésitez pas.
 
 ## Version
 
-Version actuelle : 0.2.1
+Version actuelle : 0.3.0
+
+Rajout du machine learning et quelques prédictions
